@@ -1,0 +1,21 @@
+	cloak.au
+engine.au
+	enter_ship.au
+explosion.au
+	explosion_other.au
+	fire_phaser.au
+	fire_phaser_other.au
+	fire_plasma.au
+fire_plasma_other.au
+	fire_torp.au
+	fire_torp_other.au
+	message.au
+plasma_hit.au
+	red_alert.au
+self_destruct.au
+	shield_down.au
+	shield_up.au
+	sounds.txt
+torp_hit.au
+	uncloak.au
+warning.au

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>You can use keys 0-9 to set your speed (unless you changed the settings)</string>
+	<string>MacTrek supports voice commands, you can open your iSight microphone and give voice commands to your ship</string>
+	<string>If you run out of fuel you cannot fire torps or phasers</string>
+	<string>Tracktors and pressors are very good for throwing your opponent off balance</string>
+	<string>If you do not like the mouse or key button layout, you can change it in the settings menu</string>
+	<string>http://www.netrek.org lists many usefull guides on how to play netrek</string>
+	<string>You can detonate incomming torps at a certain radius, the will do less damage then on impact (but more than a miss)</string>
+	<string>Team play is the only thing that will bring the enemy to its knees</string>
+	<string>Cruiser vs. Battleship (BB)
+
+The BB is the only ship larger than the CA, and must be treated as such. I find the best method is either to just get around the BB (using your higher combat speed) or try to stay at range and get some torp hits in before the BB can close. You need about 7 torp hits to kill the BB, and you should probably get half of those before closing. Your phasers do less damage than the BB&apos;s, so try to avoid getting into a phaser battle: you&apos;ll lose. Stick to your photons which do the same damage as BB photons.</string>
+	<string>Battleship vs. Cruiser (CA)
+
+Battleships are the best cruiser-killers.  Cruisers can&apos;t dodge significantly better than BB&apos;s, their phasers are a lot weaker, and their pressors aren&apos;t strong enough to keep a determined battleship away.  You also need to do 60 less damage to them than they need to do to you.  The most efficient way to kill them is the Tractor-Phaser Method: Tractor them in and dodge; their retaliatory string of torps will usually go to the place you just dodged from.  Phaser and dodge the other way.  Repeat, adding torps when necessary.  You&apos;ll be surprised how little damage they&apos;re able to do to you if you get in a groove.</string>
+	<string>Sending messages may lock your mouse focus on the comm dialog move the mouse into the game to get focus back</string>
+	<string>Checkout http://mactrek.sourceforge.net frequently for new releases.</string>
+	<string>Learn the macro keys to send messages to your team mates quickly</string>
+	<string>Some servers supports ships that are not in MacTrek, orbit your homeworld and press refit (default r) to get one of those</string>
+	<string>If you find these tips enoying you can turn them off in the settings pane</string>
+	<string>The nail will only believe in the hammer after it has been hit - Domincus</string>
+	<string>Perfection is what we strive fro</string>
+	<string>MacTrek was written from scratch in 8 months time</string>
+	<string>Netrek has been arround since 1973</string>
+	<string>MacTrek can detect new clients have been released</string>
+	<string>Sending 5 spaces to someone will cause a reply with the client they are using (try sending to ALL)</string>
+	<string>You should watch the galactic map at all times.</string>
+	<string>Escorts should stay between the ogger and the carrier.</string>
+	<string>Sometimes you just have to hope that they miss.</string>
+	<string>&quot;to ogg&quot; means, the process of cloaking and appearing adjacent to an enemy
+while firing torps and tractoring on to him, with the purpose to kill that
+player, without caring about dying in the process</string>
+	<string>You should not be afraid to admit that you screwed up. Trust us, everyone
+else knows you did.</string>
+	<string>If you feel useless, you can always grab a SC and start SC bombing. People
+will love you for it.</string>
+	<string>There is no I in team.</string>
+	<string>You should attack them. Yes, you.</string>
+	<string>Skill does not equal clue.</string>
+	<string>The lines are better than the dots, but the dots go farther.</string>
+	<string>Death is only a temporary setback.</string>
+	<string>MacTrek 1.6 is 64 bits</string>
+</array>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ChangeLogURL</key>
+	<string>https://sourceforge.net/projects/mactrek/files/mactrek/1.5.0/release-note-1_5_0.txt/download</string>
+	<key>DownloadURL</key>
+	<string>https://sourceforge.net/projects/mactrek/files/mactrek/1.5.0/MacTrek-1_5_0.zip/download</string>
+	<key>MoreInfoURL</key>
+	<string>http://mactrek.sourceforge.net</string>
+	<key>Version</key>
+	<string>1.5.0</string>
+</dict>
+</plist>

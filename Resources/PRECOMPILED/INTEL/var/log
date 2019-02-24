@@ -1,0 +1,36 @@
+"ntserv" not accessible or not executable.
+"ntserv" not accessible or not executable.
+"ntserv" not accessible or not executable.
+"ntserv" not accessible or not executable.
+"ntserv" not accessible or not executable.
+"ntserv" not accessible or not executable.
+netrekd: port 2591, tools/players, listening fd 4, to do "players" m   
+netrekd: port 3521, tools/players, listening fd 5, to do "players" u   
+netrekd: port 2596, special, listening fd 6, to do "statistics" -q 6  
+netrekd: port 2592, ntserv, listening fd 4, to do "ntserv"    
+netrekd: port 2591, tools/players, listening fd 5, to do "players" m   
+netrekd: port 3521, tools/players, listening fd 6, to do "players" u   
+netrekd: port 2593, ntserv, listening fd 7, to do "ntservobs" -q 6  
+netrekd: port 2596, special, listening fd 8, to do "statistics"    
+netrekd: port 4566, ntserv, listening fd 9, to do "home" -q 2  
+netrekd: port 4577, ntserv, listening fd 10, to do "away" -q 3  
+netrekd: port 4000, ntserv, listening fd 11, to do "homeobs" -q 4  
+netrekd: port 5000, ntserv, bind: Address already in use
+       localhost                        Thu Dec 14 10:50:47 2006
+netrekd: port 5000, ntserv, bind: Address already in use
+netrekd: port 5000, ntserv, bind: Address already in use
+       localhost                        Thu Dec 14 10:50:51 2006
+netrekd: port 5000, ntserv, bind: Address already in use
+       192.168.1.2                      Thu Dec 14 10:50:52 2006
+netrekd: port 5000, ntserv, bind: Address already in use
+       192.168.1.2                      Thu Dec 14 10:50:57 2006
+netrekd: port 5000, ntserv, bind: Address already in use
+       192.168.1.2                      Thu Dec 14 10:51:02 2006
+       192.168.1.2                      Thu Dec 14 10:51:07 2006
+netrekd: port 5000, ntserv, bind: Address already in use
+netrekd: port 5000, ntserv, bind: Address already in use
+       192.168.1.2                      Thu Dec 14 10:51:12 2006
+netrekd: port 5000, ntserv, bind: Address already in use
+       192.168.1.2                      Thu Dec 14 10:51:17 2006
+       192.168.1.2                      Thu Dec 14 10:52:27 2006
+netrekd: port 5000, ntserv, bind: Address already in use

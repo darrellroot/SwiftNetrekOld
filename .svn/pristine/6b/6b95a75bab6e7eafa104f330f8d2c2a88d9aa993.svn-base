@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FullScreenBackgroundWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = RoundedView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                play = id; 
+                quit = id; 
+                refreshServers = id; 
+                startServer = id; 
+                stopServer = id; 
+            }; 
+            CLASS = SetupWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                keymapTableView = NSTableView; 
+                serverLogView = NSTextView; 
+                serverNameTextField = NSTextField; 
+                serverTableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = TransparentWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}
