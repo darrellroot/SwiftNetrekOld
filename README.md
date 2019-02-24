@@ -6,6 +6,6 @@ I've converted SoundEffect.m to SoundEffect.swift (1 file) and converted audio f
 (no longer supported) to AVFoundation.  I also updated some build parameters.
 
 It builds!  It works (barely).  It crashes after a while with selector errors.  If you try to create
-a new netrek login it crashs (but guest works).
+a new netrek login it crashes (but guest works).
 
 I hope this port is worthy of Chris Lukassen's excellent work getting Netrek working on the Mac.
