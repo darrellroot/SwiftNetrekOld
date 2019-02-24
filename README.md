@@ -11,3 +11,5 @@ a new netrek login it crashes (but guest works).
 I hope this port is worthy of Chris Lukassen's excellent work getting Netrek working on the Mac.
 
 For now I'm commenting out source code of retired .m files rather than deleting them.  That way the original source is handy for troubleshooting.  Please only submit pull requests if it builds and mostly works.
+
+One other issue is that the MacTrek client had some images and audio that's too infringing of Star Trek copyrights.  I plan to remove and replace those infringing files after making some progress with the Swift migration.
