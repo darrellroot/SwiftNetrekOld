@@ -9,3 +9,5 @@ It builds!  It works (barely).  It crashes after a while with selector errors.  
 a new netrek login it crashes (but guest works).
 
 I hope this port is worthy of Chris Lukassen's excellent work getting Netrek working on the Mac.
+
+For now I'm commenting out source code of retired .m files rather than deleting them.  That way the original source is handy for troubleshooting.  Please only submit pull requests if it builds and mostly works.
