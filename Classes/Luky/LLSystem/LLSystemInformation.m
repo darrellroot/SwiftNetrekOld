@@ -9,6 +9,8 @@
 #import "LLSystemInformation.h"
 #import <Carbon/Carbon.h>
 #import <SystemConfiguration/SystemConfiguration.h>
+#include <mach/mach_host.h>
+#include <mach/host_info.h>
 
 @implementation LLSystemInformation
 
@@ -176,8 +178,7 @@ static NSDictionary *translationDictionary=nil;
 	return [self processorClockSpeed]/1000000;
 }
 
-#include <mach/mach_host.h>
-#include <mach/host_info.h>
+
 + (unsigned int)countProcessors
 {
 	host_basic_info_data_t hostInfo;
@@ -191,8 +192,6 @@ static NSDictionary *translationDictionary=nil;
 	
 }
 
-#include <mach/mach.h>
-#include <mach/machine.h>
 
 
 // the following methods were more or less copied from

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F048F2F22230A8700F7044F /* SoundEffect.swift */; };
 		5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB70B08FFB80059A8B1 /* BeepLite.m */; };
 		5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB90B08FFB80059A8B1 /* ClientController.m */; };
 		5212F06B0B08FFB80059A8B1 /* JTrekController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFBB0B08FFB80059A8B1 /* JTrekController.m */; };
@@ -93,7 +94,6 @@
 		5270A4A60BAB0F9600635F95 /* SpockTorpedo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5270A4A50BAB0F9600635F95 /* SpockTorpedo.jpg */; };
 		52756F210B3554CA00631149 /* PRECOMPILED in Resources */ = {isa = PBXBuildFile; fileRef = 52756EA90B3554CA00631149 /* PRECOMPILED */; };
 		527B94E10BFE0C3600B4D740 /* MacTrekUserManual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 527B94E00BFE0C3600B4D740 /* MacTrekUserManual.pdf */; };
-		527E08930AF3766A00B5D37F /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527E08920AF3766A00B5D37F /* QuickTime.framework */; };
 		528CF1A90BA07FF30001B4D0 /* MTDistressKeyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 528CF1A80BA07FF30001B4D0 /* MTDistressKeyMap.m */; };
 		528E7E0C0B0A649E00B22943 /* LLDOReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E7DD50B0A649E00B22943 /* LLDOReceiver.m */; };
 		528E7E0D0B0A649E00B22943 /* LLDOSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E7DD70B0A649E00B22943 /* LLDOSender.m */; };
@@ -176,6 +176,8 @@
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F048F2E22230A8600F7044F /* MacTrek-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTrek-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F048F2F22230A8700F7044F /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacTrek_Prefix.pch; path = Classes/MacTrek/Other/MacTrek_Prefix.pch; sourceTree = "<group>"; };
 		5212EFB60B08FFB80059A8B1 /* BeepLite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BeepLite.h; sourceTree = "<group>"; };
 		5212EFB70B08FFB80059A8B1 /* BeepLite.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BeepLite.m; sourceTree = "<group>"; };
@@ -472,7 +474,6 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				5220A6C80A598D2900ADAD05 /* QTKit.framework in Frameworks */,
 				529847F20A7E909C00918799 /* Quartz.framework in Frameworks */,
-				527E08930AF3766A00B5D37F /* QuickTime.framework in Frameworks */,
 				52DC5E4F0B3158D600C78FD1 /* SystemConfiguration.framework in Frameworks */,
 				52DC5EF00B3158EA00C78FD1 /* IOKit.framework in Frameworks */,
 			);
@@ -802,6 +803,8 @@
 		5212F0370B08FFB80059A8B1 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				2F048F2E22230A8600F7044F /* MacTrek-Bridging-Header.h */,
+				2F048F2F22230A8700F7044F /* SoundEffect.swift */,
 				5212F0380B08FFB80059A8B1 /* SoundEffect.h */,
 				5212F0390B08FFB80059A8B1 /* SoundEffect.m */,
 				5212F03A0B08FFB80059A8B1 /* SoundPlayer.h */,
@@ -1037,6 +1040,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacTrek" */;
 			compatibilityVersion = "Xcode 3.1";
@@ -1121,6 +1129,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */,
+				2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */,
 				5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */,
 				5212F06B0B08FFB80059A8B1 /* JTrekController.m in Sources */,
 				5212F06C0B08FFB80059A8B1 /* KeyMapTableDataSource.m in Sources */,
@@ -1266,8 +1275,10 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS)",
 					"$(SRCROOT)/FrameWorks",
@@ -1281,6 +1292,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
@@ -1290,6 +1302,9 @@
 				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/FrameWorks\"";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.luky.MacTrek;
 				PRODUCT_NAME = MacTrek;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/MacTrek/Sound/MacTrek-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -1298,7 +1313,9 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS)",
 					"$(SRCROOT)/FrameWorks",
@@ -1311,6 +1328,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
@@ -1320,6 +1338,8 @@
 				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/FrameWorks\"";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.luky.MacTrek;
 				PRODUCT_NAME = MacTrek;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/MacTrek/Sound/MacTrek-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1327,6 +1347,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = "$(inherited)";
 				DYLIB_CURRENT_VERSION = "$(inherited)";
 				ENABLE_TESTABILITY = YES;
@@ -1334,7 +1355,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = "";
-				GCC_VERSION = 4.2;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1351,13 +1372,14 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = "$(inherited)";
 				DYLIB_CURRENT_VERSION = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = "";
-				GCC_VERSION = 4.2;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;

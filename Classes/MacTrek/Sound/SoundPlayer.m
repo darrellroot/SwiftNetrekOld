@@ -7,6 +7,7 @@
 //
 
 #import "SoundPlayer.h"
+#import "MacTrek-Swift.h"
 
 @implementation SoundPlayer
 

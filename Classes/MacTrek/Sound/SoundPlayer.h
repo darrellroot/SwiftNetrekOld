@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MacTrek-Swift.h"
 #import "BaseClass.h"
 #import "Data.h"
 #import "SoundEffect.h"
@@ -14,11 +15,13 @@
 
 #define SP_MAX_RANGE 10000
 #define SP_NORMAL_VOLUME 1.0 
+@class SoundEffect;
 
 @interface SoundPlayer : BaseClass {
     NSMutableDictionary *soundEffects;
     float volumeFX;
     float volumeMusic;
+
 }
 
 // called by init

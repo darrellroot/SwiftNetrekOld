@@ -5,7 +5,7 @@
 //  Created by Aqua on 03/07/2006.
 //  Copyright 2006 Luky Soft. See Licence.txt for licence details.
 //  
-
+/*
 #import "SoundEffect.h"
 
 
@@ -28,7 +28,7 @@
         name = newName;
     }
     return self;
-}*/
+}
 
 - (bool) loadSoundWithName:(NSString*)soundName {
 	return [self loadSoundWithName:soundName nrOfInstances:SE_DEFAULT_INSTANCES];
@@ -89,7 +89,7 @@
     [sound retain];
 }
 */
-
+/*
 -(void) setName:(NSString *)newName {
     [name release];
     name = newName;
@@ -142,3 +142,4 @@
 }
 
 @end
+*/
