@@ -15,7 +15,7 @@
 
 @interface ClientController : BaseClass {
 	Communication *communication;
-	IBOutlet
+    IBOutlet;
 }
 
 - (Communication *) communication;

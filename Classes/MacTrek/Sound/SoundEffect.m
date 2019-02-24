@@ -59,9 +59,11 @@
 		
 		sound = [soundInstances objectAtIndex:i];
 		
-		if (([sound currentTime].timeValue > 0 ) && 
-			([sound currentTime].timeValue  < [sound duration].timeValue)) {
-			//LLLog(@"SoundEffect.sound already playing sound %@, skipping....", name);
+		//if (([sound currentTime].timeValue > 0 ) &&
+        if (([sound currentTime] > 0 ) &&
+            ([sound currentTime]  < [sound duration])) {
+            //([sound currentTime].timeValue  < [sound duration].timeValue)) {
+            //LLLog(@"SoundEffect.sound already playing sound %@, skipping....", name);
 		} else {
 			//LLLog(@"SoundEffect.sound free sound found %@", name);
 			[sound gotoBeginning];

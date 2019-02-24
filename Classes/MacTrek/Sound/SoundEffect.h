@@ -7,8 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "QTKit/QTMovie.h"
-#import "QuickTime/MediaHandlers.h"
+//#import "QTKit/QTMovie.h"
+//#import "QuickTime/MediaHandlers.h"
+//#import <AVKit>
+//#import <AVFoundation>
 #import "BaseClass.h"
 
 #define SE_DEFAULT_INSTANCES 1
