@@ -1,9 +1,0 @@
-#
-# NO geno timer
-#
-30 19 * * * /Users/Shared/MacTrek/Server/lib/tools/no_geno_timer
-#
-# geno timer
-#
-30 07 * * * /Users/Shared/MacTrek/Server/lib/tools/geno_timer
-

@@ -64,7 +64,7 @@ import AVFoundation
             sound.currentTime = 0
         }
     }
-    @objc func playWithVolume(_ vol: Float, bal: Float = 0.0) {
+    @objc func playWithVolume(_ vol: Float, balance: Float = 0.0) {
         //no balance control that I see, so ignoring balance
         if let sound = sound() {
             sound.setVolume(vol, fadeDuration: 0.0)
@@ -72,6 +72,6 @@ import AVFoundation
         }
     }
     @objc func playWithVolume(_ vol: Float) {
-        self.playWithVolume(vol, bal: 0.0)
+        self.playWithVolume(vol, balance: 0.0)
     }
 }

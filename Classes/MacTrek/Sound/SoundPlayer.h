@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MacTrek-Swift.h"
+#import "SwiftNetrek-Swift.h"
 #import "BaseClass.h"
 #import "Data.h"
 #import "SoundEffect.h"

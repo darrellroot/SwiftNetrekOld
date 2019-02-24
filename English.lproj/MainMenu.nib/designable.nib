@@ -73,8 +73,9 @@
 					<characters key="NS.bytes">View</characters>
 				</object>
 				<nil key="NSUserInterfaceItemIdentifier"/>
+				<string key="NSWindowContentMinSize">{213, 107}</string>
 				<object class="NSView" key="NSWindowView" id="601364203">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<nil key="NSNibTouchBar"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
@@ -85,8 +86,6 @@
 							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{30, -374}, {50, 25}}</string>
 							<reference key="NSSuperview" ref="601364203"/>
-							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="628031255">
 								<int key="NSCellFlags">67108864</int>
@@ -114,8 +113,6 @@
 							<int key="NSvFlags">274</int>
 							<string key="NSFrame">{{-11, -4}, {1038, 790}}</string>
 							<reference key="NSSuperview" ref="601364203"/>
-							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="884241119"/>
 							<array class="NSMutableArray" key="NSTabViewItems">
 								<object class="NSTabViewItem" id="781905194">
 									<string key="NSIdentifier">Start</string>
@@ -245,8 +242,6 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 												</set>
 												<string key="NSFrame">{{-292, -73}, {1316, 816}}</string>
 												<reference key="NSSuperview" ref="884241119"/>
-												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSImageCell" key="NSCell" id="1049509540">
 													<int key="NSCellFlags">134217728</int>
@@ -270,7 +265,6 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 												<int key="NSvFlags">-2147483329</int>
 												<string key="NSFrame">{{20, 66}, {978, 672}}</string>
 												<reference key="NSSuperview" ref="884241119"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="8492523"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSButtonCell" key="NSCell" id="593281005">
@@ -303,7 +297,6 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 												<int key="NSvFlags">301</int>
 												<string key="NSFrame">{{412, -1}, {194, 18}}</string>
 												<reference key="NSSuperview" ref="884241119"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="843686999"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSLevelIndicatorCell" key="NSCell" id="468807232">
@@ -321,15 +314,14 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 												<int key="NSvFlags">319</int>
 												<string key="NSFrame">{{340, 555}, {344, 115}}</string>
 												<reference key="NSSuperview" ref="884241119"/>
-												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="729391716"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSTextFieldCell" key="NSCell" id="360815574">
 													<int key="NSCellFlags">67108864</int>
 													<int key="NSCellFlags2">272629760</int>
-													<string key="NSContents">MacTrek</string>
+													<string key="NSContents">SwiftNetrek</string>
 													<object class="NSFont" key="NSSupport" id="416728466">
-														<string key="NSName">BankGothic-Medium</string>
+														<string key="NSName">.AppleSystemUIFont</string>
 														<double key="NSSize">72</double>
 														<int key="NSfFlags">16</int>
 													</object>
@@ -349,7 +341,6 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 										</array>
 										<string key="NSFrame">{{10, 7}, {1018, 770}}</string>
 										<reference key="NSSuperview" ref="224187759"/>
-										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="212800638"/>
 									</object>
 									<string key="NSLabel">Splash</string>
@@ -413,7 +404,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 													<int key="NSCellFlags2">134217728</int>
 													<string key="NSContents">Select Server</string>
 													<object class="NSFont" key="NSSupport" id="919320959">
-														<string key="NSName">BankGothic-Medium</string>
+														<string key="NSName">.AppleSystemUIFont</string>
 														<double key="NSSize">24</double>
 														<int key="NSfFlags">16</int>
 													</object>
@@ -583,7 +574,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 												<object class="NSTextFieldCell" key="NSCell" id="528166690">
 													<int key="NSCellFlags">67108864</int>
 													<int key="NSCellFlags2">272629760</int>
-													<string key="NSContents">MacTrek</string>
+													<string key="NSContents">SwiftNetrek</string>
 													<reference key="NSSupport" ref="416728466"/>
 													<reference key="NSControlView" ref="227566975"/>
 													<object class="NSColor" key="NSBackgroundColor">
@@ -610,7 +601,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 													<int key="NSCellFlags2">272629760</int>
 													<string key="NSContents">Version 1.1.0</string>
 													<object class="NSFont" key="NSSupport" id="148200006">
-														<string key="NSName">BankGothic-Medium</string>
+														<string key="NSName">.AppleSystemUIFont</string>
 														<double key="NSSize">36</double>
 														<int key="NSfFlags">16</int>
 													</object>
@@ -755,6 +746,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 												<reference key="NSNextResponder" ref="465185598"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{129, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="465185598"/>
 												<reference key="NSNextKeyView" ref="224187759"/>
@@ -764,7 +756,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 													<int key="NSCellFlags2">134217728</int>
 													<string key="NSContents">Back</string>
 													<object class="NSFont" key="NSSupport" id="600413282">
-														<string key="NSName">BankGothic-Medium</string>
+														<string key="NSName">.AppleSystemUIFont</string>
 														<double key="NSSize">30</double>
 														<int key="NSfFlags">16</int>
 													</object>
@@ -812,7 +804,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 																		<int key="NSCellFlags2">272629760</int>
 																		<string key="NSContents">Graphics</string>
 																		<object class="NSFont" key="NSSupport" id="992698569">
-																			<string key="NSName">BankGothic-Medium</string>
+																			<string key="NSName">.AppleSystemUIFont</string>
 																			<double key="NSSize">18</double>
 																			<int key="NSfFlags">16</int>
 																		</object>
@@ -838,7 +830,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 																		<int key="NSCellFlags">75497472</int>
 																		<int key="NSCellFlags2">0</int>
 																		<object class="NSFont" key="NSSupport" id="102044344">
-																			<string key="NSName">BankGothic-Medium</string>
+																			<string key="NSName">.AppleSystemUIFont</string>
 																			<double key="NSSize">12</double>
 																			<int key="NSfFlags">16</int>
 																		</object>
@@ -851,7 +843,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 																			</object>
 																			<object class="NSSegmentItem">
 																				<double key="NSSegmentItemWidth">59.666667938232422</double>
-																				<string key="NSSegmentItemLabel">MacTrek</string>
+																				<string key="NSSegmentItemLabel">SwiftNetrek</string>
 																				<int key="NSSegmentItemTag">1</int>
 																				<bool key="NSSegmentItemSelected">YES</bool>
 																				<int key="NSSegmentItemImageScaling">2</int>
@@ -1345,6 +1337,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 																	<reference key="NSNextResponder" ref="337377648"/>
 																	<nil key="NSNibTouchBar"/>
 																	<int key="NSvFlags">301</int>
+																	<array class="NSMutableArray" key="NSSubviews"/>
 																	<string key="NSFrame">{{508, 165}, {95, 24}}</string>
 																	<reference key="NSSuperview" ref="337377648"/>
 																	<bool key="NSEnabled">YES</bool>
@@ -1479,7 +1472,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 																		<int key="NSCellFlags">-2076180416</int>
 																		<int key="NSCellFlags2">2048</int>
 																		<object class="NSFont" key="NSSupport" id="90793309">
-																			<string key="NSName">BankGothic-Medium</string>
+																			<string key="NSName">.AppleSystemUIFont</string>
 																			<double key="NSSize">14</double>
 																			<int key="NSfFlags">16</int>
 																		</object>
@@ -1809,7 +1802,7 @@ zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
 																								<int key="NSCellFlags2">2048</int>
 																								<string key="NSContents">Control</string>
 																								<object class="NSFont" key="NSSupport" id="795094669">
-																									<string key="NSName">BankGothic-Medium</string>
+																									<string key="NSName">.AppleSystemUIFont</string>
 																									<double key="NSSize">11</double>
 																									<int key="NSfFlags">16</int>
 																								</object>
@@ -2447,7 +2440,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												</array>
 												<reference key="NSSelectedTabViewItem" ref="120352971"/>
 												<object class="NSFont" key="NSFont">
-													<string key="NSName">BankGothic-Medium</string>
+													<string key="NSName">.AppleSystemUIFont</string>
 													<double key="NSSize">13</double>
 													<int key="NSfFlags">16</int>
 												</object>
@@ -2766,6 +2759,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="755635695"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{722, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="755635695"/>
 												<reference key="NSNextKeyView" ref="224187759"/>
@@ -2790,6 +2784,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="755635695"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{239, 194}, {538, 46}}</string>
 												<reference key="NSSuperview" ref="755635695"/>
 												<reference key="NSNextKeyView" ref="393772173"/>
@@ -2814,6 +2809,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="755635695"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{129, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="755635695"/>
 												<reference key="NSNextKeyView" ref="370021411"/>
@@ -2940,7 +2936,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 																</object>
 																<object class="NSTextViewSharedData" key="NSSharedData">
 																	<bool key="NSAutomaticTextCompletionDisabled">NO</bool>
-																	<int key="NSFlags">67111776</int>
+																	<int key="NSFlags">117574496</int>
 																	<int key="NSTextCheckingTypes">0</int>
 																	<nil key="NSMarkedAttributes"/>
 																	<reference key="NSBackgroundColor" ref="310857841"/>
@@ -2987,7 +2983,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 														<reference key="NSDocView" ref="751080588"/>
 														<reference key="NSBGColor" ref="507970064"/>
 														<object class="NSCursor" key="NSCursor">
-															<string key="NSHotSpot">{4, 4}</string>
+															<string key="NSHotSpot">{1, -1}</string>
 															<int key="NSCursorType">0</int>
 														</object>
 														<int key="NScvFlags">4</int>
@@ -3088,7 +3084,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 													<reference key="NSSupport" ref="709109347"/>
 													<object class="NSNumberFormatter" key="NSFormatter" id="67772005">
 														<dictionary class="NSMutableDictionary" key="NS.attributes">
-															<boolean value="YES" key="allowsFloats"/>
+															<integer value="1" key="allowsFloats"/>
 															<object class="NSAttributedString" key="attributedStringForZero" id="727862424">
 																<string key="NSString">0</string>
 																<dictionary key="NSAttributes" id="631366229"/>
@@ -3149,6 +3145,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="71965150"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{722, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="71965150"/>
 												<reference key="NSNextKeyView" ref="224187759"/>
@@ -3177,6 +3174,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="71965150"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{129, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="71965150"/>
 												<reference key="NSNextKeyView" ref="568019619"/>
@@ -3205,6 +3203,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="71965150"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{110, 504}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="71965150"/>
 												<reference key="NSNextKeyView" ref="834681957"/>
@@ -3233,6 +3232,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="71965150"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{110, 428}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="71965150"/>
 												<reference key="NSNextKeyView" ref="841217574"/>
@@ -3309,6 +3309,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="71965150"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{260, 504}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="71965150"/>
 												<reference key="NSNextKeyView" ref="849624"/>
@@ -3337,6 +3338,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="71965150"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{260, 428}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="71965150"/>
 												<reference key="NSNextKeyView" ref="347809898"/>
@@ -3614,6 +3616,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="843143338"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{722, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="843143338"/>
 												<reference key="NSNextKeyView" ref="224187759"/>
@@ -3638,6 +3641,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="843143338"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{129, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="843143338"/>
 												<reference key="NSNextKeyView" ref="759151816"/>
@@ -3756,6 +3760,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="1022945289"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{722, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="1022945289"/>
 												<reference key="NSNextKeyView" ref="224187759"/>
@@ -3780,6 +3785,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="1022945289"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{129, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="1022945289"/>
 												<reference key="NSNextKeyView" ref="1068378827"/>
@@ -4803,6 +4809,7 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<reference key="NSNextResponder" ref="540810679"/>
 												<nil key="NSNibTouchBar"/>
 												<int key="NSvFlags">319</int>
+												<array class="NSMutableArray" key="NSSubviews"/>
 												<string key="NSFrame">{{129, 105}, {129, 46}}</string>
 												<reference key="NSSuperview" ref="540810679"/>
 												<bool key="NSEnabled">YES</bool>
@@ -4857,15 +4864,15 @@ c2UgeW91ciBtb3VzZSB0byBwb2ludCBhdCBhIHNwZWNpZmljIHBsYXllci9wbGFuZXQ</string>
 												<object class="NSTextFieldCell" key="NSCell" id="773721183">
 													<int key="NSCellFlags">67108864</int>
 													<int key="NSCellFlags2">272629760</int>
-													<string type="base64-UTF8" key="NSContents">TWFjVHJlayB3YXMgbWFkZSBieToKCkNocmlzICYgSnVkaXRoIEx1a2Fzc2VuCgpBbmQgaXMgYmFzZWQg
-b24gdGhlIGZpbmUgd29yayBvZjoKClBhc2NhbCAoRGVmY29tKSwgV2lsbGlhbSBCYWxjZXJza2ksIFJv
-YmVydCBUZW1wbGUsIENocmlzIEd1dGhyaWUsIEVkIEphbWVzLCBTY290dCBTaWx2ZXksIGFuZCBLZXZp
-biBTbWl0aCwgIFRlZGQgSGFkbGV5LCBBbmR5IE1jRmFkZGVuLCBFcmljIE1laGxoYWZmLCBKLiBNYXJr
-IE5vd29yb2xza2ksICBOaWNrIFRyb3duLCBMYXJzIEJlcm5oYXJkc3NvbiwgU2FtIFNoZW4sIFJpY2sg
-V2VpbnN0ZWluLCBKZWZmIE5lbHNvbiwgSmVmZiBXYWxsZXIsIFJvYmVydCBLZW5uZXksIFN0ZXZlIFNo
-ZWxkb24sICBKb25hdGhhbiBTaGVrdGVyLCBEYXZlIEdvc3NlbGluLCBIZWlrbyBXZW5nbGVyLCBOZWls
-IENvb2ssIEt1cnQgU2llZ2wsIExhcnJ5IERlbnlzLCBLdXJ0IE9sc2VuLCBCcmFuZG9uIEdpbGxlc3Bp
-ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
+													<string type="base64-UTF8" key="NSContents">U3dpZnROZXRyZWsgd2FzIG1hZGUgYnk6CgpDaHJpcyAmIEp1ZGl0aCBMdWthc3NlbgoKQW5kIGlzIGJh
+c2VkIG9uIHRoZSBmaW5lIHdvcmsgb2Y6CgpQYXNjYWwgKERlZmNvbSksIFdpbGxpYW0gQmFsY2Vyc2tp
+LCBSb2JlcnQgVGVtcGxlLCBDaHJpcyBHdXRocmllLCBFZCBKYW1lcywgU2NvdHQgU2lsdmV5LCBhbmQg
+S2V2aW4gU21pdGgsICBUZWRkIEhhZGxleSwgQW5keSBNY0ZhZGRlbiwgRXJpYyBNZWhsaGFmZiwgSi4g
+TWFyayBOb3dvcm9sc2tpLCAgTmljayBUcm93biwgTGFycyBCZXJuaGFyZHNzb24sIFNhbSBTaGVuLCBS
+aWNrIFdlaW5zdGVpbiwgSmVmZiBOZWxzb24sIEplZmYgV2FsbGVyLCBSb2JlcnQgS2VubmV5LCBTdGV2
+ZSBTaGVsZG9uLCAgSm9uYXRoYW4gU2hla3RlciwgRGF2ZSBHb3NzZWxpbiwgSGVpa28gV2VuZ2xlciwg
+TmVpbCBDb29rLCBLdXJ0IFNpZWdsLCBMYXJyeSBEZW55cywgS3VydCBPbHNlbiwgQnJhbmRvbiBHaWxs
+ZXNwaWUgYW5kIG1hbnkgb3RoZXJzLgo</string>
 													<reference key="NSSupport" ref="90793309"/>
 													<reference key="NSControlView" ref="794938361"/>
 													<object class="NSColor" key="NSBackgroundColor">
@@ -4899,13 +4906,11 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 						</object>
 					</array>
 					<string key="NSFrameSize">{1024, 768}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="224187759"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 877}}</string>
 				<string key="NSMinSize">{213, 129}</string>
-				<string key="NSMaxSize">{3.4028200000000001e+38, 3.4028200000000001e+38}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
 			<object class="NSMenu" id="12089980">
@@ -4913,7 +4918,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<array class="NSMutableArray" key="NSMenuItems">
 					<object class="NSMenuItem" id="394148619">
 						<reference key="NSMenu" ref="12089980"/>
-						<string key="NSTitle">MacTrek</string>
+						<string key="NSTitle">SwiftNetrek</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -4922,7 +4927,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 						<string key="NSAction">submenuAction:</string>
 						<reference key="NSTarget" ref="595208203"/>
 						<object class="NSMenu" key="NSSubmenu" id="595208203">
-							<string key="NSTitle">MacTrek</string>
+							<string key="NSTitle">SwiftNetrek</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="227863900">
 									<reference key="NSMenu" ref="595208203"/>
@@ -5328,7 +5333,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="948572766">
 									<reference key="NSMenu" ref="527405881"/>
-									<string key="NSTitle">MacTrek Help</string>
+									<string key="NSTitle">SwiftNetrek Help</string>
 									<string key="NSKeyEquiv">?</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -5378,6 +5383,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 					<characters key="NS.bytes">View</characters>
 				</object>
 				<nil key="NSUserInterfaceItemIdentifier"/>
+				<string key="NSWindowContentMinSize">{213, 113}</string>
 				<object class="NSView" key="NSWindowView" id="120936425">
 					<nil key="NSNextResponder"/>
 					<nil key="NSNibTouchBar"/>
@@ -5423,7 +5429,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 											</object>
 											<object class="NSTextViewSharedData" key="NSSharedData">
 												<bool key="NSAutomaticTextCompletionDisabled">NO</bool>
-												<int key="NSFlags">67111781</int>
+												<int key="NSFlags">117574501</int>
 												<int key="NSTextCheckingTypes">0</int>
 												<nil key="NSMarkedAttributes"/>
 												<reference key="NSBackgroundColor" ref="310857841"/>
@@ -5513,7 +5519,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 877}}</string>
 				<string key="NSMinSize">{213, 129}</string>
-				<string key="NSMaxSize">{3.4028200000000001e+38, 3.4028200000000001e+38}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<string key="NSFrameAutosaveName">MacTrek Key Mapping</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -5542,6 +5548,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 					<characters key="NS.bytes">View</characters>
 				</object>
 				<nil key="NSUserInterfaceItemIdentifier"/>
+				<string key="NSWindowContentMinSize">{213, 113}</string>
 				<object class="NSView" key="NSWindowView" id="895503769">
 					<nil key="NSNextResponder"/>
 					<nil key="NSNibTouchBar"/>
@@ -5958,6 +5965,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 							<reference key="NSNextResponder" ref="895503769"/>
 							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{20, 25}, {124, 25}}</string>
 							<reference key="NSSuperview" ref="895503769"/>
 							<bool key="NSEnabled">YES</bool>
@@ -5981,6 +5989,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 							<reference key="NSNextResponder" ref="895503769"/>
 							<nil key="NSNibTouchBar"/>
 							<int key="NSvFlags">256</int>
+							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrame">{{152, 25}, {157, 25}}</string>
 							<reference key="NSSuperview" ref="895503769"/>
 							<bool key="NSEnabled">YES</bool>
@@ -6005,7 +6014,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 877}}</string>
 				<string key="NSMinSize">{213, 129}</string>
-				<string key="NSMaxSize">{3.4028200000000001e+38, 3.4028200000000001e+38}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<string key="NSFrameAutosaveName">MacTrek UDP Control</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -10704,169 +10713,169 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="-3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1021.IBNSViewMetadataConstraints"/>
+				<reference key="1021.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1021.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1024.IBNSViewMetadataConstraints"/>
+				<reference key="1024.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1024.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="454" key="1026.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1026.IBNSViewMetadataConstraints"/>
+				<reference key="1026.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1026.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1029.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1035.IBNSViewMetadataConstraints"/>
+				<reference key="1035.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1035.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1037.IBNSViewMetadataConstraints"/>
+				<reference key="1037.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1037.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1038.IBNSViewMetadataConstraints"/>
+				<reference key="1038.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1038.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1040.IBNSViewMetadataConstraints"/>
+				<reference key="1040.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1040.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1042.IBNSViewMetadataConstraints"/>
+				<reference key="1042.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1042.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1043.IBNSViewMetadataConstraints"/>
+				<reference key="1043.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1043.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1049.IBNSViewMetadataConstraints"/>
+				<reference key="1049.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1049.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="277" key="1064.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1064.IBNSViewMetadataConstraints"/>
+				<reference key="1064.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1064.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1065.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1066.IBNSViewMetadataConstraints"/>
+				<reference key="1066.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1066.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1067.IBNSViewMetadataConstraints"/>
+				<reference key="1067.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1067.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1069.IBNSViewMetadataConstraints"/>
+				<reference key="1069.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1069.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1077.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1078.IBNSViewMetadataConstraints"/>
+				<reference key="1078.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1078.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1079.IBNSViewMetadataConstraints"/>
+				<reference key="1079.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1079.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1080.IBNSViewMetadataConstraints"/>
+				<reference key="1080.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1080.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1097.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1108.IBNSViewMetadataConstraints"/>
+				<reference key="1108.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1108.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="177" key="1109.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1109.IBNSViewMetadataConstraints"/>
+				<reference key="1109.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1109.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="263" key="1110.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1110.IBNSViewMetadataConstraints"/>
+				<reference key="1110.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1110.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1112.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1147.IBNSViewMetadataConstraints"/>
+				<reference key="1147.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1147.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1190.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1191.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1194.IBNSViewMetadataConstraints"/>
+				<reference key="1194.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1194.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1195.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1196.IBNSViewMetadataConstraints"/>
+				<reference key="1196.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1196.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1197.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1198.IBNSViewMetadataConstraints"/>
+				<reference key="1198.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1198.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1199.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1200.IBNSViewMetadataConstraints"/>
+				<reference key="1200.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1200.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1201.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1202.IBNSViewMetadataConstraints"/>
+				<reference key="1202.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1202.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1203.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1204.IBNSViewMetadataConstraints"/>
+				<reference key="1204.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1204.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="103" key="1205.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1205.IBNSViewMetadataConstraints"/>
+				<reference key="1205.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1205.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1206.IBNSViewMetadataConstraints"/>
+				<reference key="1206.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1206.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="103" key="1207.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1207.IBNSViewMetadataConstraints"/>
+				<reference key="1207.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1207.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1208.IBNSViewMetadataConstraints"/>
+				<reference key="1208.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1208.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="114" key="1209.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1209.IBNSViewMetadataConstraints"/>
+				<reference key="1209.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1209.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1210.IBNSViewMetadataConstraints"/>
+				<reference key="1210.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1210.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1211.IBNSViewMetadataConstraints"/>
+				<reference key="1211.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1211.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1212.IBNSViewMetadataConstraints"/>
+				<reference key="1212.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1212.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="103" key="1213.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1213.IBNSViewMetadataConstraints"/>
+				<reference key="1213.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1213.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="103" key="1214.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1214.IBNSViewMetadataConstraints"/>
+				<reference key="1214.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1214.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1215.IBNSViewMetadataConstraints"/>
+				<reference key="1215.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1215.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="110" key="1216.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1216.IBNSViewMetadataConstraints"/>
+				<reference key="1216.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1216.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1217.IBNSViewMetadataConstraints"/>
+				<reference key="1217.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1217.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="164" key="1218.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1218.IBNSViewMetadataConstraints"/>
+				<reference key="1218.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1218.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1239.IBNSViewMetadataConstraints"/>
+				<reference key="1239.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1239.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1240.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1241.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1242.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1243.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1244.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1245.IBNSViewMetadataConstraints"/>
+				<reference key="1245.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1245.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1246.IBNSViewMetadataConstraints"/>
+				<reference key="1246.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1246.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1247.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1248.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1249.IBNSViewMetadataConstraints"/>
+				<reference key="1249.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1249.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1250.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1251.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1252.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1253.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1254.IBNSViewMetadataConstraints"/>
+				<reference key="1254.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1254.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1255.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1256.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1257.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1258.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1259.IBNSViewMetadataConstraints"/>
+				<reference key="1259.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1259.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1260.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1261.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1262.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1263.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="105" key="1264.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1264.IBNSViewMetadataConstraints"/>
+				<reference key="1264.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1264.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="105" key="1265.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1265.IBNSViewMetadataConstraints"/>
+				<reference key="1265.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1265.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="105" key="1266.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1266.IBNSViewMetadataConstraints"/>
+				<reference key="1266.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1266.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1268.IBNSViewMetadataConstraints"/>
+				<reference key="1268.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1268.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1269.IBNSViewMetadataConstraints"/>
+				<reference key="1269.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1269.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1270.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1271.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="121" key="1291.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1291.IBNSViewMetadataConstraints"/>
+				<reference key="1291.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1291.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1292.IBNSViewMetadataConstraints"/>
+				<reference key="1292.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1292.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="158" key="1294.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1294.IBNSViewMetadataConstraints"/>
+				<reference key="1294.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1294.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="133" key="1296.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1296.IBNSViewMetadataConstraints"/>
+				<reference key="1296.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1296.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1297.IBNSViewMetadataConstraints"/>
+				<reference key="1297.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1297.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1298.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1299.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -10880,77 +10889,77 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<string key="1307.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1310.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="158" key="1312.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1312.IBNSViewMetadataConstraints"/>
+				<reference key="1312.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1312.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1313.IBNSViewMetadataConstraints"/>
+				<reference key="1313.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1313.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1321.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1322.IBNSViewMetadataConstraints"/>
+				<reference key="1322.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1322.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="110" key="1323.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1323.IBNSViewMetadataConstraints"/>
+				<reference key="1323.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1323.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1327.IBNSViewMetadataConstraints"/>
+				<reference key="1327.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1327.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="110" key="1328.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1328.IBNSViewMetadataConstraints"/>
+				<reference key="1328.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1328.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1329.IBNSViewMetadataConstraints"/>
+				<reference key="1329.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1329.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="110" key="1330.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1330.IBNSViewMetadataConstraints"/>
+				<reference key="1330.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1330.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1331.IBNSViewMetadataConstraints"/>
+				<reference key="1331.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1331.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="110" key="1332.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1332.IBNSViewMetadataConstraints"/>
+				<reference key="1332.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1332.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="126" key="1334.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1334.IBNSViewMetadataConstraints"/>
+				<reference key="1334.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1334.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1335.IBNSViewMetadataConstraints"/>
+				<reference key="1335.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1335.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1336.IBNSViewMetadataConstraints"/>
+				<reference key="1336.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1336.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="110" key="1337.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1337.IBNSViewMetadataConstraints"/>
+				<reference key="1337.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1337.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1338.IBNSViewMetadataConstraints"/>
+				<reference key="1338.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1338.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1339.IBNSViewMetadataConstraints"/>
+				<reference key="1339.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1339.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1341.IBNSViewMetadataConstraints"/>
+				<reference key="1341.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1341.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1342.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1354.IBNSViewMetadataConstraints"/>
+				<reference key="1354.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1354.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1355.IBNSViewMetadataConstraints"/>
+				<reference key="1355.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1355.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1360.IBNSViewMetadataConstraints"/>
+				<reference key="1360.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1360.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="340" key="1361.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1361.IBNSViewMetadataConstraints"/>
+				<reference key="1361.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1361.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="122" key="1362.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1362.IBNSViewMetadataConstraints"/>
+				<reference key="1362.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1362.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1364.IBNSViewMetadataConstraints"/>
+				<reference key="1364.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1364.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="122" key="1365.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1365.IBNSViewMetadataConstraints"/>
+				<reference key="1365.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1365.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1366.CustomClassName">NSSecureTextField</string>
-				<array key="1366.IBNSViewMetadataConstraints"/>
+				<reference key="1366.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1366.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="214" key="1367.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1367.IBNSViewMetadataConstraints"/>
+				<reference key="1367.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1367.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="103" key="1372.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="1372.IBNSViewMetadataConstraints"/>
+				<reference key="1372.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1372.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1373.IBNSViewMetadataConstraints"/>
+				<reference key="1373.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1373.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1378.IBNSViewMetadataConstraints"/>
+				<reference key="1378.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1378.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1383.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1384.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -10990,6 +10999,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<string key="1418.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1419.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1420.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<integer value="0" key="1421.IBNSSegmentedControlInspectorSelectedSegmentMetadataKey"/>
 				<string key="1421.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1422.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1423.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -11058,6 +11068,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<string key="1486.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1487.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1488.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<integer value="0" key="1489.IBNSSegmentedControlInspectorSelectedSegmentMetadataKey"/>
 				<string key="1489.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1490.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1491.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -11065,9 +11076,21 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<string key="1493.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1494.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1495.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<integer value="0" key="1496.IBNSSegmentedControlInspectorSelectedSegmentMetadataKey"/>
 				<string key="1496.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<array key="1497.IBComboBoxObjectValuesKey.objectValues">
+					<string>TCP</string>
+					<string>UDP Basic</string>
+					<string>UDP State</string>
+					<string>UDP State+Weapons</string>
+				</array>
 				<string key="1497.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1498.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<array key="1499.IBComboBoxObjectValuesKey.objectValues">
+					<string>TCP</string>
+					<string>UDP Basic</string>
+					<string>UDP Fat</string>
+				</array>
 				<string key="1499.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1500.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1501.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -11098,35 +11121,35 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<string key="1526.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1527.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1528.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1529.IBNSViewMetadataConstraints"/>
+				<reference key="1529.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1529.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1530.IBNSViewMetadataConstraints"/>
+				<reference key="1530.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1530.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1531.IBNSViewMetadataConstraints"/>
+				<reference key="1531.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1531.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1532.IBNSViewMetadataConstraints"/>
+				<reference key="1532.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1532.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1533.IBNSViewMetadataConstraints"/>
+				<reference key="1533.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1533.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1534.IBNSViewMetadataConstraints"/>
+				<reference key="1534.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1534.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1535.IBNSViewMetadataConstraints"/>
+				<reference key="1535.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1535.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1536.IBNSViewMetadataConstraints"/>
+				<reference key="1536.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1536.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1537.IBNSViewMetadataConstraints"/>
+				<reference key="1537.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1537.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1538.IBNSViewMetadataConstraints"/>
+				<reference key="1538.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1538.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1539.IBNSViewMetadataConstraints"/>
+				<reference key="1539.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1539.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1540.IBNSViewMetadataConstraints"/>
+				<reference key="1540.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1540.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="1541.IBNSViewMetadataConstraints"/>
+				<reference key="1541.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="1541.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="238.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="YES" key="238.NSWindowTemplate.visibleAtLaunch"/>
-				<array key="239.IBNSViewMetadataConstraints"/>
+				<integer value="1" key="238.NSWindowTemplate.visibleAtLaunch"/>
+				<reference key="239.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="239.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="242.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="243.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -11175,250 +11198,250 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 				<string key="301.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="302.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="303.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="327.IBNSViewMetadataConstraints"/>
+				<reference key="327.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="327.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="457.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="496.IBNSViewMetadataConstraints"/>
+				<reference key="496.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="496.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="497.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="498.IBNSViewMetadataConstraints"/>
+				<reference key="498.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="498.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="499.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="500.IBNSViewMetadataConstraints"/>
+				<reference key="500.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="500.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="502.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="503.IBNSViewMetadataConstraints"/>
+				<reference key="503.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="503.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="504.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="505.IBNSViewMetadataConstraints"/>
+				<reference key="505.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="505.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="506.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="507.IBNSViewMetadataConstraints"/>
+				<reference key="507.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="507.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="508.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="509.IBNSViewMetadataConstraints"/>
+				<reference key="509.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="509.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="510.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="511.IBNSViewMetadataConstraints"/>
+				<reference key="511.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="511.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="512.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="513.IBNSViewMetadataConstraints"/>
+				<reference key="513.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="513.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="514.IBNSViewMetadataConstraints"/>
+				<reference key="514.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="514.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="515.IBNSViewMetadataConstraints"/>
+				<reference key="515.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="515.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="516.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="517.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="518.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="519.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="520.IBNSViewMetadataConstraints"/>
+				<reference key="520.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="520.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="88" key="525.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="525.IBNSViewMetadataConstraints"/>
+				<reference key="525.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="525.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="527.IBNSViewMetadataConstraints"/>
+				<reference key="527.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="527.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="528.IBNSViewMetadataConstraints"/>
+				<reference key="528.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="528.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="531.IBNSViewMetadataConstraints"/>
+				<reference key="531.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="531.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="532.IBNSViewMetadataConstraints"/>
+				<reference key="532.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="532.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="533.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="707" key="551.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="551.IBNSViewMetadataConstraints"/>
+				<reference key="551.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="551.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="552.IBNSViewMetadataConstraints"/>
+				<reference key="552.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="552.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="553.CustomClassName">NSSecureTextField</string>
-				<array key="553.IBNSViewMetadataConstraints"/>
+				<reference key="553.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="553.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="87" key="554.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="554.IBNSViewMetadataConstraints"/>
+				<reference key="554.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="554.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="556.CustomClassName">NSSecureTextField</string>
-				<array key="556.IBNSViewMetadataConstraints"/>
+				<reference key="556.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="556.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="167" key="557.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="557.IBNSViewMetadataConstraints"/>
+				<reference key="557.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="557.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="99" key="573.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="573.IBNSViewMetadataConstraints"/>
+				<reference key="573.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="573.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="574.IBNSViewMetadataConstraints"/>
+				<reference key="574.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="574.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="625.IBNSViewMetadataConstraints"/>
+				<reference key="625.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="625.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="671.IBNSViewMetadataConstraints"/>
+				<reference key="671.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="671.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="676.IBNSViewMetadataConstraints"/>
+				<reference key="676.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="676.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="681.IBNSViewMetadataConstraints"/>
+				<reference key="681.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="681.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="685.IBNSViewMetadataConstraints"/>
+				<reference key="685.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="685.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="690.IBNSViewMetadataConstraints"/>
+				<reference key="690.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="690.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="697.IBNSViewMetadataConstraints"/>
+				<reference key="697.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="697.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="698.IBNSViewMetadataConstraints"/>
+				<reference key="698.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="698.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="699.IBNSViewMetadataConstraints"/>
+				<reference key="699.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="699.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="700.IBNSViewMetadataConstraints"/>
+				<reference key="700.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="700.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="701.IBNSViewMetadataConstraints"/>
+				<reference key="701.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="701.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="705.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="725.IBNSViewMetadataConstraints"/>
+				<reference key="725.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="725.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="727.IBNSViewMetadataConstraints"/>
+				<reference key="727.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="727.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="729.IBNSViewMetadataConstraints"/>
+				<reference key="729.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="729.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="731.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="732.IBNSViewMetadataConstraints"/>
+				<reference key="732.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="732.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="757.IBNSViewMetadataConstraints"/>
+				<reference key="757.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="757.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="329" key="759.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="759.IBNSViewMetadataConstraints"/>
+				<reference key="759.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="759.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="761.IBNSViewMetadataConstraints"/>
+				<reference key="761.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="761.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="762.IBNSViewMetadataConstraints"/>
+				<reference key="762.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="762.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="766.IBNSViewMetadataConstraints"/>
+				<reference key="766.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="766.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="767.IBNSViewMetadataConstraints"/>
+				<reference key="767.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="767.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="248" key="768.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="768.IBNSViewMetadataConstraints"/>
+				<reference key="768.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="768.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="94" key="769.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="769.IBNSViewMetadataConstraints"/>
+				<reference key="769.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="769.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="770.IBNSViewMetadataConstraints"/>
+				<reference key="770.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="770.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="771.IBNSViewMetadataConstraints"/>
+				<reference key="771.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="771.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="94" key="772.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="772.IBNSViewMetadataConstraints"/>
+				<reference key="772.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="772.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="774.IBNSViewMetadataConstraints"/>
+				<reference key="774.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="774.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="775.IBNSViewMetadataConstraints"/>
+				<reference key="775.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="775.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="99" key="782.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="782.IBNSViewMetadataConstraints"/>
+				<reference key="782.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="782.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="783.IBNSViewMetadataConstraints"/>
+				<reference key="783.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="783.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="784.IBNSViewMetadataConstraints"/>
+				<reference key="784.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="784.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="785.IBNSViewMetadataConstraints"/>
+				<reference key="785.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="785.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="790.IBNSViewMetadataConstraints"/>
+				<reference key="790.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="790.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="791.IBNSViewMetadataConstraints"/>
+				<reference key="791.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="791.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="792.IBNSViewMetadataConstraints"/>
+				<reference key="792.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="792.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="793.IBNSViewMetadataConstraints"/>
+				<reference key="793.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="793.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="796.IBNSViewMetadataConstraints"/>
+				<reference key="796.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="796.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="797.IBNSViewMetadataConstraints"/>
+				<reference key="797.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="797.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="798.IBNSViewMetadataConstraints"/>
+				<reference key="798.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="798.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="799.IBNSViewMetadataConstraints"/>
+				<reference key="799.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="799.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="801.IBNSViewMetadataConstraints"/>
+				<reference key="801.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="801.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="802.IBNSViewMetadataConstraints"/>
+				<reference key="802.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="802.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="803.IBNSViewMetadataConstraints"/>
+				<reference key="803.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="803.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="804.IBNSViewMetadataConstraints"/>
+				<reference key="804.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="804.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="815.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="817.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="828.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="843.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="878.IBNSViewMetadataConstraints"/>
+				<reference key="878.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="878.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="38" key="882.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="882.IBNSViewMetadataConstraints"/>
+				<reference key="882.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="882.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="38" key="883.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="883.IBNSViewMetadataConstraints"/>
+				<reference key="883.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="883.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="38" key="884.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="884.IBNSViewMetadataConstraints"/>
+				<reference key="884.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="884.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="38" key="886.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="886.IBNSViewMetadataConstraints"/>
+				<reference key="886.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="886.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="57" key="888.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="888.IBNSViewMetadataConstraints"/>
+				<reference key="888.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="888.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="73" key="890.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="890.IBNSViewMetadataConstraints"/>
+				<reference key="890.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="890.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="50" key="892.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="892.IBNSViewMetadataConstraints"/>
+				<reference key="892.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="892.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="50" key="894.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="894.IBNSViewMetadataConstraints"/>
+				<reference key="894.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="894.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="50" key="896.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="896.IBNSViewMetadataConstraints"/>
+				<reference key="896.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="896.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="900.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="129" key="926.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="926.IBNSViewMetadataConstraints"/>
+				<reference key="926.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="926.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="129" key="927.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="927.IBNSViewMetadataConstraints"/>
+				<reference key="927.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="927.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="129" key="928.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="928.IBNSViewMetadataConstraints"/>
+				<reference key="928.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="928.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="129" key="934.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="934.IBNSViewMetadataConstraints"/>
+				<reference key="934.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="934.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="129" key="938.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="938.IBNSViewMetadataConstraints"/>
+				<reference key="938.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="938.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="129" key="940.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="940.IBNSViewMetadataConstraints"/>
+				<reference key="940.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="940.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="946.IBNSViewMetadataConstraints"/>
+				<reference key="946.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="946.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="948.IBNSViewMetadataConstraints"/>
+				<reference key="948.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="948.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="949.IBNSViewMetadataConstraints"/>
+				<reference key="949.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="949.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="950.IBNSViewMetadataConstraints"/>
+				<reference key="950.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="950.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="951.IBNSViewMetadataConstraints"/>
+				<reference key="951.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="951.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="952.IBNSViewMetadataConstraints"/>
+				<reference key="952.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="952.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="953.IBNSViewMetadataConstraints"/>
+				<reference key="953.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="953.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="954.IBNSViewMetadataConstraints"/>
+				<reference key="954.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="954.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="955.IBNSViewMetadataConstraints"/>
+				<reference key="955.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="955.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="964.IBNSViewMetadataConstraints"/>
+				<reference key="964.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="964.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<real value="516" key="974.IBNSTextFieldPreferredMaxLayoutWidthMetadataKey"/>
-				<array key="974.IBNSViewMetadataConstraints"/>
+				<reference key="974.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="974.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<array key="993.IBNSViewMetadataConstraints"/>
+				<reference key="993.IBNSViewMetadataConstraints" ref="0"/>
 				<string key="993.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
@@ -11427,1643 +11450,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 			<nil key="sourceID"/>
 			<int key="maxID">1541</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">BaseClass</string>
-					<string key="superclassName">SimpleBaseClass</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Generic/BaseClass.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">BaseView</string>
-					<string key="superclassName">LLView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Generic/BaseView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GameController</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="armiesBar">LLBar</string>
-						<string key="eTempBar">LLBar</string>
-						<string key="eTempValue">NSTextField</string>
-						<string key="fuelBar">LLBar</string>
-						<string key="fuelValue">NSTextField</string>
-						<string key="gameView">GameView</string>
-						<string key="hullBar">LLBar</string>
-						<string key="hullValue">NSTextField</string>
-						<string key="mapView">MapView</string>
-						<string key="messageTextField">NSTextField</string>
-						<string key="messages">MessagesListView</string>
-						<string key="phasersBar">LLBar</string>
-						<string key="playerList">PlayerListView</string>
-						<string key="shieldBar">LLBar</string>
-						<string key="shieldValue">NSTextField</string>
-						<string key="speedBar">LLBar</string>
-						<string key="speedValue">NSTextField</string>
-						<string key="torpsBar">LLBar</string>
-						<string key="wTempBar">LLBar</string>
-						<string key="wTempValue">NSTextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="armiesBar">
-							<string key="name">armiesBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="eTempBar">
-							<string key="name">eTempBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="eTempValue">
-							<string key="name">eTempValue</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fuelBar">
-							<string key="name">fuelBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fuelValue">
-							<string key="name">fuelValue</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="gameView">
-							<string key="name">gameView</string>
-							<string key="candidateClassName">GameView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="hullBar">
-							<string key="name">hullBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="hullValue">
-							<string key="name">hullValue</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="mapView">
-							<string key="name">mapView</string>
-							<string key="candidateClassName">MapView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="messageTextField">
-							<string key="name">messageTextField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="messages">
-							<string key="name">messages</string>
-							<string key="candidateClassName">MessagesListView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="phasersBar">
-							<string key="name">phasersBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playerList">
-							<string key="name">playerList</string>
-							<string key="candidateClassName">PlayerListView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="shieldBar">
-							<string key="name">shieldBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="shieldValue">
-							<string key="name">shieldValue</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="speedBar">
-							<string key="name">speedBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="speedValue">
-							<string key="name">speedValue</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="torpsBar">
-							<string key="name">torpsBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="wTempBar">
-							<string key="name">wTempBar</string>
-							<string key="candidateClassName">LLBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="wTempValue">
-							<string key="name">wTempValue</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/GameController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GameView</string>
-					<string key="superclassName">BaseView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Views/GameView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GuiManager</string>
-					<string key="superclassName">BaseClass</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">showNextTip:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">showNextTip:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">showNextTip:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="gameCntrl">GameController</string>
-						<string key="keyMapList">NSTextView</string>
-						<string key="keyMapPanel">NSPanel</string>
-						<string key="localServerCntrl">LocalServerController</string>
-						<string key="loginCntrl">LoginController</string>
-						<string key="mainWindow">NSWindow</string>
-						<string key="menuButton">NSButton</string>
-						<string key="menuCntrl">MenuController</string>
-						<string key="outfitCntrl">OutfitMenuController</string>
-						<string key="selectServerCntrl">SelectServerController</string>
-						<string key="settingsCntrl">SettingsController</string>
-						<string key="startUpProgress">NSLevelIndicator</string>
-						<string key="versionString">NSTextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="gameCntrl">
-							<string key="name">gameCntrl</string>
-							<string key="candidateClassName">GameController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="keyMapList">
-							<string key="name">keyMapList</string>
-							<string key="candidateClassName">NSTextView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="keyMapPanel">
-							<string key="name">keyMapPanel</string>
-							<string key="candidateClassName">NSPanel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="localServerCntrl">
-							<string key="name">localServerCntrl</string>
-							<string key="candidateClassName">LocalServerController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loginCntrl">
-							<string key="name">loginCntrl</string>
-							<string key="candidateClassName">LoginController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="mainWindow">
-							<string key="name">mainWindow</string>
-							<string key="candidateClassName">NSWindow</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="menuButton">
-							<string key="name">menuButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="menuCntrl">
-							<string key="name">menuCntrl</string>
-							<string key="candidateClassName">MenuController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="outfitCntrl">
-							<string key="name">outfitCntrl</string>
-							<string key="candidateClassName">OutfitMenuController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="selectServerCntrl">
-							<string key="name">selectServerCntrl</string>
-							<string key="candidateClassName">SelectServerController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="settingsCntrl">
-							<string key="name">settingsCntrl</string>
-							<string key="candidateClassName">SettingsController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="startUpProgress">
-							<string key="name">startUpProgress</string>
-							<string key="candidateClassName">NSLevelIndicator</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="versionString">
-							<string key="name">versionString</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/GuiManager.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GuiManager</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">showNextTip:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">showNextTip:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">showNextTip:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/GuiManager.m</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">KeyMapTableDataSource</string>
-					<string key="superclassName">BaseClass</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">keyMapTableView</string>
-						<string key="NS.object.0">NSTableView</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">keyMapTableView</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">keyMapTableView</string>
-							<string key="candidateClassName">NSTableView</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/App/KeyMapTableDataSource.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LLBar</string>
-					<string key="superclassName">LLView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/Luky/LLGui/LLBar.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LLCharFormatter</string>
-					<string key="superclassName">NSFormatter</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/Luky/LLGui/LLCharFormatter.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LLFullScreenBackgroundWindow</string>
-					<string key="superclassName">NSWindow</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/Luky/LLGui/LLFullScreenBackgroundWindow.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LLObject</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/Luky/LLCore/LLObject.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LLStringList</string>
-					<string key="superclassName">LLView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/Luky/LLGui/LLStringList.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LLStringTable</string>
-					<string key="superclassName">LLView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/Luky/LLGui/LLStringTable.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LLView</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/Luky/LLCore/LLView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LocalServerController</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="startRobots:">id</string>
-						<string key="startServer:">id</string>
-						<string key="stopRobots:">id</string>
-						<string key="stopServer:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="startRobots:">
-							<string key="name">startRobots:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="startServer:">
-							<string key="name">startServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="stopRobots:">
-							<string key="name">stopRobots:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="stopServer:">
-							<string key="name">stopServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="loginButton">NSButton</string>
-						<string key="numberOfRobots">NSTextField</string>
-						<string key="selectServerController">SelectServerController</string>
-						<string key="serverLogView">NSTextView</string>
-						<string key="startRobotsButton">NSButton</string>
-						<string key="startServerButton">NSButton</string>
-						<string key="stopRobotsButton">NSButton</string>
-						<string key="stopServerButton">NSButton</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="loginButton">
-							<string key="name">loginButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="numberOfRobots">
-							<string key="name">numberOfRobots</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="selectServerController">
-							<string key="name">selectServerController</string>
-							<string key="candidateClassName">SelectServerController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="serverLogView">
-							<string key="name">serverLogView</string>
-							<string key="candidateClassName">NSTextView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="startRobotsButton">
-							<string key="name">startRobotsButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="startServerButton">
-							<string key="name">startServerButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="stopRobotsButton">
-							<string key="name">stopRobotsButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="stopServerButton">
-							<string key="name">stopServerButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/LocalServerController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LocalServerController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="startRobots:">id</string>
-						<string key="startServer:">id</string>
-						<string key="stopRobots:">id</string>
-						<string key="stopServer:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="startRobots:">
-							<string key="name">startRobots:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="startServer:">
-							<string key="name">startServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="stopRobots:">
-							<string key="name">stopRobots:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="stopServer:">
-							<string key="name">stopServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/LocalServerController.m</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">LoginController</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="loginClock">NSLevelIndicator</string>
-						<string key="loginInstruction">NSTextField</string>
-						<string key="outfitButton">NSButton</string>
-						<string key="playerName">NSTextField</string>
-						<string key="playerPassword">NSTextField</string>
-						<string key="playerPasswordVerify">NSTextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="loginClock">
-							<string key="name">loginClock</string>
-							<string key="candidateClassName">NSLevelIndicator</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loginInstruction">
-							<string key="name">loginInstruction</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="outfitButton">
-							<string key="name">outfitButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playerName">
-							<string key="name">playerName</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playerPassword">
-							<string key="name">playerPassword</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playerPasswordVerify">
-							<string key="name">playerPasswordVerify</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/LoginController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MTUDPWindowController</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="resetToTcp:">id</string>
-						<string key="updateAll:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="resetToTcp:">
-							<string key="name">resetToTcp:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="updateAll:">
-							<string key="name">updateAll:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="channelState">NSSegmentedControl</string>
-						<string key="receiveModeBox">NSComboBox</string>
-						<string key="resetButton">NSButton</string>
-						<string key="sendModeBox">NSComboBox</string>
-						<string key="sequenceChecking">NSSegmentedControl</string>
-						<string key="statisticsField">NSTextField</string>
-						<string key="statusField">NSTextField</string>
-						<string key="udpPanel">NSPanel</string>
-						<string key="updateAllButton">NSButton</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="channelState">
-							<string key="name">channelState</string>
-							<string key="candidateClassName">NSSegmentedControl</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="receiveModeBox">
-							<string key="name">receiveModeBox</string>
-							<string key="candidateClassName">NSComboBox</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="resetButton">
-							<string key="name">resetButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="sendModeBox">
-							<string key="name">sendModeBox</string>
-							<string key="candidateClassName">NSComboBox</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="sequenceChecking">
-							<string key="name">sequenceChecking</string>
-							<string key="candidateClassName">NSSegmentedControl</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="statisticsField">
-							<string key="name">statisticsField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="statusField">
-							<string key="name">statusField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="udpPanel">
-							<string key="name">udpPanel</string>
-							<string key="candidateClassName">NSPanel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="updateAllButton">
-							<string key="name">updateAllButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/MTUDPWindowController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MTUDPWindowController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="resetToTcp:">id</string>
-						<string key="updateAll:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="resetToTcp:">
-							<string key="name">resetToTcp:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="updateAll:">
-							<string key="name">updateAll:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/MTUDPWindowController.m</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MapView</string>
-					<string key="superclassName">GameView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Views/MapView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MenuController</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="helpButtonPressed:">id</string>
-						<string key="quickButtonPressed:">id</string>
-						<string key="quit:">id</string>
-						<string key="raiseCredits:">id</string>
-						<string key="raiseGame:">id</string>
-						<string key="raiseLogin:">id</string>
-						<string key="raiseMenu:">id</string>
-						<string key="raiseOutfit:">id</string>
-						<string key="raiseSelectServer:">id</string>
-						<string key="raiseSettings:">id</string>
-						<string key="raiseStartServer:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="helpButtonPressed:">
-							<string key="name">helpButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="quickButtonPressed:">
-							<string key="name">quickButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="quit:">
-							<string key="name">quit:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseCredits:">
-							<string key="name">raiseCredits:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseGame:">
-							<string key="name">raiseGame:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseLogin:">
-							<string key="name">raiseLogin:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseMenu:">
-							<string key="name">raiseMenu:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseOutfit:">
-							<string key="name">raiseOutfit:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseSelectServer:">
-							<string key="name">raiseSelectServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseSettings:">
-							<string key="name">raiseSettings:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseStartServer:">
-							<string key="name">raiseStartServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="creditsButton">NSButton</string>
-						<string key="helpButton">NSButton</string>
-						<string key="loginButton">NSButton</string>
-						<string key="playButton">NSButton</string>
-						<string key="quickConnectButton">NSButton</string>
-						<string key="quitButton">NSButton</string>
-						<string key="selectServerButton">NSButton</string>
-						<string key="settingsButton">NSButton</string>
-						<string key="startServerButton">NSButton</string>
-						<string key="tabFrameView">NSTabView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="creditsButton">
-							<string key="name">creditsButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="helpButton">
-							<string key="name">helpButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loginButton">
-							<string key="name">loginButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playButton">
-							<string key="name">playButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="quickConnectButton">
-							<string key="name">quickConnectButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="quitButton">
-							<string key="name">quitButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="selectServerButton">
-							<string key="name">selectServerButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="settingsButton">
-							<string key="name">settingsButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="startServerButton">
-							<string key="name">startServerButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="tabFrameView">
-							<string key="name">tabFrameView</string>
-							<string key="candidateClassName">NSTabView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/MenuController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MenuController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="helpButtonPressed:">id</string>
-						<string key="quickButtonPressed:">id</string>
-						<string key="quit:">id</string>
-						<string key="raiseCredits:">id</string>
-						<string key="raiseGame:">id</string>
-						<string key="raiseLogin:">id</string>
-						<string key="raiseMenu:">id</string>
-						<string key="raiseOutfit:">id</string>
-						<string key="raiseSelectServer:">id</string>
-						<string key="raiseSettings:">id</string>
-						<string key="raiseStartServer:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="helpButtonPressed:">
-							<string key="name">helpButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="quickButtonPressed:">
-							<string key="name">quickButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="quit:">
-							<string key="name">quit:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseCredits:">
-							<string key="name">raiseCredits:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseGame:">
-							<string key="name">raiseGame:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseLogin:">
-							<string key="name">raiseLogin:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseMenu:">
-							<string key="name">raiseMenu:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseOutfit:">
-							<string key="name">raiseOutfit:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseSelectServer:">
-							<string key="name">raiseSelectServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseSettings:">
-							<string key="name">raiseSettings:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="raiseStartServer:">
-							<string key="name">raiseStartServer:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/MenuController.m</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MessagesListView</string>
-					<string key="superclassName">LLStringList</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Views/MessagesListView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MetaServerTableDataSource</string>
-					<string key="superclassName">BaseClass</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">refreshServers:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">refreshServers:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">refreshServers:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">serverTableView</string>
-						<string key="NS.object.0">NSTableView</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">serverTableView</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">serverTableView</string>
-							<string key="candidateClassName">NSTableView</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/App/MetaServerTableDataSource.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MetaServerTableDataSource</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">refreshServers:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">refreshServers:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">refreshServers:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/App/MetaServerTableDataSource.m</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">OutfitMenuController</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="play:">id</string>
-						<string key="selectShip:">id</string>
-						<string key="selectTeam:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="play:">
-							<string key="name">play:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="selectShip:">
-							<string key="name">selectShip:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="selectTeam:">
-							<string key="name">selectTeam:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="asButton">NSButton</string>
-						<string key="bbButton">NSButton</string>
-						<string key="caButton">NSButton</string>
-						<string key="ddButton">NSButton</string>
-						<string key="fedButton">NSButton</string>
-						<string key="instructionField">NSTextField</string>
-						<string key="kliButton">NSButton</string>
-						<string key="loginClock">NSLevelIndicator</string>
-						<string key="messageTextField">NSTextField</string>
-						<string key="oriButton">NSButton</string>
-						<string key="playButton">NSButton</string>
-						<string key="romButton">NSButton</string>
-						<string key="sbButton">NSButton</string>
-						<string key="scButton">NSButton</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="asButton">
-							<string key="name">asButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="bbButton">
-							<string key="name">bbButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="caButton">
-							<string key="name">caButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="ddButton">
-							<string key="name">ddButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fedButton">
-							<string key="name">fedButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="instructionField">
-							<string key="name">instructionField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="kliButton">
-							<string key="name">kliButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loginClock">
-							<string key="name">loginClock</string>
-							<string key="candidateClassName">NSLevelIndicator</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="messageTextField">
-							<string key="name">messageTextField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="oriButton">
-							<string key="name">oriButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playButton">
-							<string key="name">playButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="romButton">
-							<string key="name">romButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="sbButton">
-							<string key="name">sbButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="scButton">
-							<string key="name">scButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/OutfitMenuController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">OutfitMenuController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="play:">id</string>
-						<string key="selectShip:">id</string>
-						<string key="selectTeam:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="play:">
-							<string key="name">play:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="selectShip:">
-							<string key="name">selectShip:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="selectTeam:">
-							<string key="name">selectTeam:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/OutfitMenuController.m</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">PlayerListView</string>
-					<string key="superclassName">LLStringTable</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Views/PlayerListView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">Postman</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="commTextField">NSTextField</string>
-						<string key="gameView">GameView</string>
-						<string key="messageList">MessagesListView</string>
-						<string key="playerList">PlayerListView</string>
-						<string key="toField">NSTextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="commTextField">
-							<string key="name">commTextField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="gameView">
-							<string key="name">gameView</string>
-							<string key="candidateClassName">GameView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="messageList">
-							<string key="name">messageList</string>
-							<string key="candidateClassName">MessagesListView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playerList">
-							<string key="name">playerList</string>
-							<string key="candidateClassName">PlayerListView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="toField">
-							<string key="name">toField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/Postman.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SelectServerController</string>
-					<string key="superclassName">MetaServerTableDataSource</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="loginButton">NSButton</string>
-						<string key="refreshButton">NSButton</string>
-						<string key="serverNameTextField">NSTextField</string>
-						<string key="spinner">NSProgressIndicator</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="loginButton">
-							<string key="name">loginButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="refreshButton">
-							<string key="name">refreshButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="serverNameTextField">
-							<string key="name">serverNameTextField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="spinner">
-							<string key="name">spinner</string>
-							<string key="candidateClassName">NSProgressIndicator</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/SelectServerController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SettingsController</string>
-					<string key="superclassName">BaseClass</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="accelerateButton">NSButton</string>
-						<string key="actionKeyMapDataSource">KeyMapTableDataSource</string>
-						<string key="distressKeyMapDataSource">KeyMapTableDataSource</string>
-						<string key="fxLevel">NSSlider</string>
-						<string key="graphicsModel">NSSegmentedControl</string>
-						<string key="leftMouse">NSPopUpButton</string>
-						<string key="logToConsole">NSButton</string>
-						<string key="mainWindow">NSWindow</string>
-						<string key="middleMouse">NSPopUpButton</string>
-						<string key="musicLevel">NSSlider</string>
-						<string key="playerName">NSTextField</string>
-						<string key="playerPassword">NSTextField</string>
-						<string key="resolution">NSPopUpButton</string>
-						<string key="rightMouse">NSPopUpButton</string>
-						<string key="tipsButton">NSButton</string>
-						<string key="trackingEnabledButton">NSButton</string>
-						<string key="useRCD">NSButton</string>
-						<string key="voiceCmds">NSButton</string>
-						<string key="voiceOver">NSButton</string>
-						<string key="wheelMouse">NSPopUpButton</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="accelerateButton">
-							<string key="name">accelerateButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="actionKeyMapDataSource">
-							<string key="name">actionKeyMapDataSource</string>
-							<string key="candidateClassName">KeyMapTableDataSource</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="distressKeyMapDataSource">
-							<string key="name">distressKeyMapDataSource</string>
-							<string key="candidateClassName">KeyMapTableDataSource</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fxLevel">
-							<string key="name">fxLevel</string>
-							<string key="candidateClassName">NSSlider</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="graphicsModel">
-							<string key="name">graphicsModel</string>
-							<string key="candidateClassName">NSSegmentedControl</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="leftMouse">
-							<string key="name">leftMouse</string>
-							<string key="candidateClassName">NSPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="logToConsole">
-							<string key="name">logToConsole</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="mainWindow">
-							<string key="name">mainWindow</string>
-							<string key="candidateClassName">NSWindow</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="middleMouse">
-							<string key="name">middleMouse</string>
-							<string key="candidateClassName">NSPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="musicLevel">
-							<string key="name">musicLevel</string>
-							<string key="candidateClassName">NSSlider</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playerName">
-							<string key="name">playerName</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="playerPassword">
-							<string key="name">playerPassword</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="resolution">
-							<string key="name">resolution</string>
-							<string key="candidateClassName">NSPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="rightMouse">
-							<string key="name">rightMouse</string>
-							<string key="candidateClassName">NSPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="tipsButton">
-							<string key="name">tipsButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="trackingEnabledButton">
-							<string key="name">trackingEnabledButton</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="useRCD">
-							<string key="name">useRCD</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="voiceCmds">
-							<string key="name">voiceCmds</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="voiceOver">
-							<string key="name">voiceOver</string>
-							<string key="candidateClassName">NSButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="wheelMouse">
-							<string key="name">wheelMouse</string>
-							<string key="candidateClassName">NSPopUpButton</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Gui/SettingsController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SimpleBaseClass</string>
-					<string key="superclassName">LLObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">../Classes/MacTrek/Generic/SimpleBaseClass.h</string>
-					</object>
-				</object>
-			</array>
-			<array class="NSMutableArray" key="referencedPartialClassDescriptionsV3.2+">
-				<object class="IBPartialClassDescription">
-					<string key="className">NSActionCell</string>
-					<string key="superclassName">NSCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSActionCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSApplication</string>
-					<string key="superclassName">NSResponder</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSApplication.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSBox</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSBox.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSBrowser</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSBrowser.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSButton</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSButtonCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSButtonCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSCell</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSCollectionView</string>
-					<string key="superclassName">NSView</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="deselectAll:">id</string>
-						<string key="selectAll:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="deselectAll:">
-							<string key="name">deselectAll:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="selectAll:">
-							<string key="name">selectAll:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="932701078">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSCollectionView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSCollectionViewItem</string>
-					<string key="superclassName">NSViewController</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="imageView">NSImageView</string>
-						<string key="textField">NSTextField</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="imageView">
-							<string key="name">imageView</string>
-							<string key="candidateClassName">NSImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="textField">
-							<string key="name">textField</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-					</dictionary>
-					<reference key="sourceIdentifier" ref="932701078"/>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSComboBox</string>
-					<string key="superclassName">NSTextField</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSComboBox.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSComboBoxCell</string>
-					<string key="superclassName">NSTextFieldCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSComboBoxCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSControl</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSControl.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSFormatter</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSFormatter.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSImageCell</string>
-					<string key="superclassName">NSCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSImageCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSImageView</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSImageView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSLevelIndicator</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSLevelIndicator.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSLevelIndicatorCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSLevelIndicatorCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSMatrix</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSMatrix.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSMenu</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSMenu.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSMenuItem</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSMenuItem.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSMenuItemCell</string>
-					<string key="superclassName">NSButtonCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSMenuItemCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSMovieView</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSMovieView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSNumberFormatter</string>
-					<string key="superclassName">NSFormatter</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Foundation.framework/Headers/NSNumberFormatter.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSPanel</string>
-					<string key="superclassName">NSWindow</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSPanel.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSPopUpButton</string>
-					<string key="superclassName">NSButton</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSPopUpButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSPopUpButtonCell</string>
-					<string key="superclassName">NSMenuItemCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSPopUpButtonCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSProgressIndicator</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSProgressIndicator.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSResponder</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSResponder.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSScrollView</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSScrollView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSScroller</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSScroller.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSSecureTextField</string>
-					<string key="superclassName">NSTextField</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSecureTextField.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSSegmentedCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSegmentedCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSSegmentedControl</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSegmentedControl.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSSlider</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSlider.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSSliderCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSSliderCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSStepper</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSStepper.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSStepperCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSStepperCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTabView</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTabView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTabViewItem</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTabViewItem.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTableColumn</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTableColumn.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTableHeaderView</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTableHeaderView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTableView</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTableView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSText</string>
-					<string key="superclassName">NSView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSText.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTextField</string>
-					<string key="superclassName">NSControl</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTextField.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTextFieldCell</string>
-					<string key="superclassName">NSActionCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTextFieldCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSTextView</string>
-					<string key="superclassName">NSText</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSTextView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSView</string>
-					<string key="superclassName">NSResponder</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSViewController</string>
-					<string key="superclassName">NSResponder</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="sourceItemView">NSView</string>
-						<string key="view">NSView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="sourceItemView">
-							<string key="name">sourceItemView</string>
-							<string key="candidateClassName">NSView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="view">
-							<string key="name">view</string>
-							<string key="candidateClassName">NSView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSWindow</string>
-					<string key="superclassName">NSResponder</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">AppKit.framework/Headers/NSWindow.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">PDFView</string>
-					<string key="superclassName">PDFKitPlatformView</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="copy:">id</string>
-						<string key="goBack:">id</string>
-						<string key="goForward:">id</string>
-						<string key="goToFirstPage:">id</string>
-						<string key="goToLastPage:">id</string>
-						<string key="goToNextPage:">id</string>
-						<string key="goToPreviousPage:">id</string>
-						<string key="scrollSelectionToVisible:">id</string>
-						<string key="selectAll:">id</string>
-						<string key="zoomIn:">id</string>
-						<string key="zoomOut:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="copy:">
-							<string key="name">copy:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="goBack:">
-							<string key="name">goBack:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="goForward:">
-							<string key="name">goForward:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="goToFirstPage:">
-							<string key="name">goToFirstPage:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="goToLastPage:">
-							<string key="name">goToLastPage:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="goToNextPage:">
-							<string key="name">goToNextPage:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="goToPreviousPage:">
-							<string key="name">goToPreviousPage:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="scrollSelectionToVisible:">
-							<string key="name">scrollSelectionToVisible:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="selectAll:">
-							<string key="name">selectAll:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="zoomIn:">
-							<string key="name">zoomIn:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="zoomOut:">
-							<string key="name">zoomOut:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Quartz.framework/Frameworks/PDFKit.framework/Headers/PDFView.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
@@ -13092,13 +11479,7 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 		<class name="IBActionConnection">
 			<fallbacks/>
 		</class>
-		<class name="IBActionInfo">
-			<fallbacks/>
-		</class>
 		<class name="IBClassDescriber">
-			<fallbacks/>
-		</class>
-		<class name="IBClassDescriptionSource">
 			<fallbacks/>
 		</class>
 		<class name="IBConnectionRecord">
@@ -13114,12 +11495,6 @@ ZSBhbmQgbWFueSBvdGhlcnMuCg</string>
 			<fallbacks/>
 		</class>
 		<class name="IBOutletConnection">
-			<fallbacks/>
-		</class>
-		<class name="IBPartialClassDescription">
-			<fallbacks/>
-		</class>
-		<class name="IBToOneOutletInfo">
 			<fallbacks/>
 		</class>
 		<class name="NSAttributedString">

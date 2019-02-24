@@ -1,4 +1,0 @@
-#!/bin/sh
-set -e
-
-blog-update -all=1
