@@ -5,7 +5,7 @@
 //  Created by Chris & Judith Lukassen on 19/02/2007.
 //  Copyright 2007 See Licence.txt for licence details.
 //
-
+/*
 #import <Cocoa/Cocoa.h>
 #import "BaseClass.h"
 #import "MTKeyMap.h"
@@ -22,3 +22,4 @@
 - (void)speechRecognizer:(NSSpeechRecognizer *)sender didRecognizeCommand:(id)aCmd;
 
 @end
+*/

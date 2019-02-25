@@ -14,6 +14,7 @@
 		2FD16AD622237AA400E1ACC8 /* SoundPlayerForNetrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */; };
 		2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */; };
 		2FECB48F22239C5000AB7ED9 /* NSNotification+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */; };
+		2FECB4912223A41E00AB7ED9 /* MTVoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECB4902223A41E00AB7ED9 /* MTVoiceController.swift */; };
 		5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB70B08FFB80059A8B1 /* BeepLite.m */; };
 		5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB90B08FFB80059A8B1 /* ClientController.m */; };
 		5212F06B0B08FFB80059A8B1 /* JTrekController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFBB0B08FFB80059A8B1 /* JTrekController.m */; };
@@ -189,6 +190,7 @@
 		2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForNetrek.swift; sourceTree = "<group>"; };
 		2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForTac.swift; sourceTree = "<group>"; };
 		2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+extensions.swift"; sourceTree = "<group>"; };
+		2FECB4902223A41E00AB7ED9 /* MTVoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTVoiceController.swift; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacTrek_Prefix.pch; path = Classes/MacTrek/Other/MacTrek_Prefix.pch; sourceTree = "<group>"; };
 		5212EFB60B08FFB80059A8B1 /* BeepLite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BeepLite.h; sourceTree = "<group>"; };
 		5212EFB70B08FFB80059A8B1 /* BeepLite.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BeepLite.m; sourceTree = "<group>"; };
@@ -832,6 +834,7 @@
 				5212F0410B08FFB80059A8B1 /* SoundPlayerForTac.m */,
 				52D37C9C0B8A5C1800265266 /* MTVoiceController.h */,
 				52D37C9D0B8A5C1800265266 /* MTVoiceController.m */,
+				2FECB4902223A41E00AB7ED9 /* MTVoiceController.swift */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -1255,6 +1258,7 @@
 				528CF1A90BA07FF30001B4D0 /* MTDistressKeyMap.m in Sources */,
 				521B0B3F0BA4166700CCE3EB /* LLScreenResolution.m in Sources */,
 				521F4D960BA5E8CB00EC77AF /* LLRendezvousController.m in Sources */,
+				2FECB4912223A41E00AB7ED9 /* MTVoiceController.swift in Sources */,
 				52248D1A0BD568A500B80C6B /* LLHost.m in Sources */,
 				52248D1D0BD568B600B80C6B /* LLSocket.m in Sources */,
 				52248D200BD568C400B80C6B /* LLUDPSocket.m in Sources */,

@@ -5,7 +5,7 @@
 //  Created by Chris & Judith Lukassen on 19/02/2007.
 //  Copyright 2007 Luky Soft. All rights reserved.
 //
-
+/*
 #import "MTVoiceController.h"
 
 
@@ -94,3 +94,4 @@
 }
 
 @end
+*/

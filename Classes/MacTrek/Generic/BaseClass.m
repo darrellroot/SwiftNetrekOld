@@ -7,6 +7,7 @@
 //
 
 #import "BaseClass.h"
+#import <Cocoa/Cocoa.h>
 
 
 @implementation BaseClass
@@ -15,6 +16,7 @@
     self = [super init];
     if (self != nil) {
         notificationCenter = [LLNotificationCenter defaultCenter];
+        //notificationCenter = NotificationCenter.default
         universe = [Universe defaultInstance];
     }
     return self;

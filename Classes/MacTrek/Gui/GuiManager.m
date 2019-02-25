@@ -108,8 +108,8 @@ NSString *defaultPassword;
                                    name:@"PF_IMAGES_CACHED"]; 
 /*        [notificationCenter addObserver:self selector:@selector(gotSPSounds)
                                    name:@"SP_SOUNDS_CACHED"];*/
-        [notificationCenter addObserver:self selector:@selector(gotSPSounds)
-                                   name:NSNotification.SP_SOUNDS_CACHED];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotSPSounds)
+                                                     name:NSNotification.SP_SOUNDS_CACHED object: nil];
 		
 		// new painter selected?
 		[notificationCenter addObserver:self selector:@selector(settingsChanged:) name:@"SC_NEW_SETTINGS"];
