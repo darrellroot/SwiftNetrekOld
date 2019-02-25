@@ -24,11 +24,12 @@
 #import "GameView.h"
 #import "LLNetServiceDelegate.h"
 #import "MTTipOfTheDayController.h"
+#import "SwiftNetrek-Swift.h"
 
 // wait for:
 //  PF_IMAGES_CACHED (3xgal + 1xmap) 
 //  SP_SOUNDS_CACHED (3x)
-#define NR_OF_EVENTS_BEFORE_SHOWING_MENU 7
+#define NR_OF_EVENTS_BEFORE_SHOWING_MENU 4
 
 enum GAME_STATE {
     GS_NO_SERVER_SELECTED=0,

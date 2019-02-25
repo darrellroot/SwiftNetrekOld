@@ -5,7 +5,7 @@
 //  Created by Aqua on 03/07/2006.
 //  Copyright 2006 Luky Soft. See Licence.txt for licence details.
 //
-
+/*
 #import "SoundPlayer.h"
 #import "SwiftNetrek-Swift.h"
 
@@ -311,3 +311,4 @@
 }
 
 @end
+*/

@@ -7,6 +7,7 @@
 //
 
 #import "GuiManager.h"
+#import "SwiftNetrek-Swift.h"
 //
 // The GuiManger maintains (among others) the game state machine, or to be precise the state machine that handles
 // the changes between the menus. It uses the following table to jump between states and specifies which events
@@ -105,8 +106,10 @@ NSString *defaultPassword;
         //                           name:@"MS_SERVERS_READ"]; $$ sent, before i am observer..
         [notificationCenter addObserver:self selector:@selector(increaseStartUpCounter) 
                                    name:@"PF_IMAGES_CACHED"]; 
-        [notificationCenter addObserver:self selector:@selector(increaseStartUpCounter) 
-                                   name:@"SP_SOUNDS_CACHED"]; 
+/*        [notificationCenter addObserver:self selector:@selector(gotSPSounds)
+                                   name:@"SP_SOUNDS_CACHED"];*/
+        [notificationCenter addObserver:self selector:@selector(gotSPSounds)
+                                   name:NSNotification.SP_SOUNDS_CACHED];
 		
 		// new painter selected?
 		[notificationCenter addObserver:self selector:@selector(settingsChanged:) name:@"SC_NEW_SETTINGS"];
@@ -130,7 +133,10 @@ NSString *defaultPassword;
     return self;
 }
 
-
+- (void) gotSPSounds {
+    LLLog(@"GuiManager got SPSounds");
+    [self increaseStartUpCounter];
+}
 
 - (void) settingsChanged:(SettingsController*) settingsController  {
 	[self setTheme];
@@ -815,7 +821,7 @@ NSString *defaultPassword;
         case 2:            
             [gameCntrl setPainter:painterTheme2];
             painterActiveTheme = painterTheme2;
-            [soundPlayerActiveTheme unSubscibeToNotifications]; // silence
+                [soundPlayerActiveTheme unSubscribeToNotifications]; // silence
             soundPlayerActiveTheme = soundPlayerTheme2;
             [soundPlayerActiveTheme subscribeToNotifications];  // activate
             break;
@@ -838,7 +844,7 @@ NSString *defaultPassword;
 		[gameCntrl setListenToVoiceCommands:[settingsCntrl voiceCommands]]; 
     }
     
-    [soundPlayerActiveTheme setVolumeFx:[settingsCntrl fxLevel]]; 
+    [soundPlayerActiveTheme setVolumeFx:[settingsCntrl fxLevel]];
 	[outfitCntrl setActivePainter:painterActiveTheme];
 	
     if ([settingsCntrl fxLevel] == 0.0) {

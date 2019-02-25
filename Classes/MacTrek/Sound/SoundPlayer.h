@@ -5,7 +5,7 @@
 //  Created by Aqua on 03/07/2006.
 //  Copyright 2006 Luky Soft. See Licence.txt for licence details.
 //
-
+/*
 #import <Cocoa/Cocoa.h>
 #import "SwiftNetrek-Swift.h"
 #import "BaseClass.h"
@@ -52,3 +52,4 @@
 - (void) handlePlasmaExploded:(Plasma*)plasma;
 
 @end
+*/

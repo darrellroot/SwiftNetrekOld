@@ -76,7 +76,10 @@
 	}
 	
 	// and reload
-	[serverTableView reloadData];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [serverTableView reloadData];
+    });
+	
 }
 
 - (void) refreshServersInSeperateThread:(id)sender {
@@ -151,7 +154,10 @@
 	[rendezvousController refreshBrowsing];
 	
 	// show it
-    [serverTableView reloadData];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [serverTableView reloadData];
+    });
+    //[serverTableView reloadData];
 }
 
 - (void) addRendezVousServerToArray:(NSMutableArray*) result {

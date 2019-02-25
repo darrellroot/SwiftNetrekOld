@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F048F2F22230A8700F7044F /* SoundEffect.swift */; };
+		2FD16AD022234C9100E1ACC8 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */; };
+		2FD16AD222236D0800E1ACC8 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD16AD122236D0800E1ACC8 /* license.txt */; };
+		2FD16AD4222375D900E1ACC8 /* SoundPlayerForMacTrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */; };
+		2FD16AD622237AA400E1ACC8 /* SoundPlayerForNetrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */; };
+		2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */; };
+		2FECB48F22239C5000AB7ED9 /* NSNotification+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */; };
 		5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB70B08FFB80059A8B1 /* BeepLite.m */; };
 		5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB90B08FFB80059A8B1 /* ClientController.m */; };
 		5212F06B0B08FFB80059A8B1 /* JTrekController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFBB0B08FFB80059A8B1 /* JTrekController.m */; };
@@ -87,7 +93,6 @@
 		522F30AF0B0B1D6200E7DDED /* RSAWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F30AE0B0B1D6200E7DDED /* RSAWrapper.m */; };
 		522F9F4C0B96C842001C4896 /* MTDistress.m in Sources */ = {isa = PBXBuildFile; fileRef = 522F9F4B0B96C842001C4896 /* MTDistress.m */; };
 		524112EF0C08778500342E93 /* MTTipOfTheDayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524112EE0C08778500342E93 /* MTTipOfTheDayController.m */; };
-		5253D56F0BCF790E0075E0D5 /* licence.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5253D56E0BCF790E0075E0D5 /* licence.rtf */; };
 		5256E09F0B931D560078C491 /* MTMacroHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256E09E0B931D560078C491 /* MTMacroHandler.m */; };
 		5256E0B20B9320D80078C491 /* MTMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256E0B10B9320D80078C491 /* MTMacro.m */; };
 		52604A9B0B97016B0097D103 /* LLNetServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52604A9A0B97016B0097D103 /* LLNetServiceDelegate.m */; };
@@ -178,6 +183,12 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F048F2E22230A8600F7044F /* MacTrek-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTrek-Bridging-Header.h"; sourceTree = "<group>"; };
 		2F048F2F22230A8700F7044F /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		2FD16AD122236D0800E1ACC8 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForMacTrek.swift; sourceTree = "<group>"; };
+		2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForNetrek.swift; sourceTree = "<group>"; };
+		2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForTac.swift; sourceTree = "<group>"; };
+		2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+extensions.swift"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacTrek_Prefix.pch; path = Classes/MacTrek/Other/MacTrek_Prefix.pch; sourceTree = "<group>"; };
 		5212EFB60B08FFB80059A8B1 /* BeepLite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BeepLite.h; sourceTree = "<group>"; };
 		5212EFB70B08FFB80059A8B1 /* BeepLite.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BeepLite.m; sourceTree = "<group>"; };
@@ -342,7 +353,6 @@
 		522F9F4B0B96C842001C4896 /* MTDistress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDistress.m; sourceTree = "<group>"; };
 		524112ED0C08778500342E93 /* MTTipOfTheDayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTipOfTheDayController.h; sourceTree = "<group>"; };
 		524112EE0C08778500342E93 /* MTTipOfTheDayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTipOfTheDayController.m; sourceTree = "<group>"; };
-		5253D56E0BCF790E0075E0D5 /* licence.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = licence.rtf; sourceTree = "<group>"; };
 		5256E09D0B931D560078C491 /* MTMacroHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMacroHandler.h; sourceTree = "<group>"; };
 		5256E09E0B931D560078C491 /* MTMacroHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMacroHandler.m; sourceTree = "<group>"; };
 		5256E0B00B9320D80078C491 /* MTMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMacro.h; sourceTree = "<group>"; };
@@ -539,6 +549,7 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -546,8 +557,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2FD16AD122236D0800E1ACC8 /* license.txt */,
 				527B94E00BFE0C3600B4D740 /* MacTrekUserManual.pdf */,
-				5253D56E0BCF790E0075E0D5 /* licence.rtf */,
 				52756EA90B3554CA00631149 /* PRECOMPILED */,
 				529F08850B06935F00255735 /* LLResources */,
 				529F078D0B06934F00255735 /* Backgrounds */,
@@ -809,11 +820,15 @@
 				5212F0390B08FFB80059A8B1 /* SoundEffect.m */,
 				5212F03A0B08FFB80059A8B1 /* SoundPlayer.h */,
 				5212F03B0B08FFB80059A8B1 /* SoundPlayer.m */,
+				2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */,
 				5212F03C0B08FFB80059A8B1 /* SoundPlayerForMacTrek.h */,
 				5212F03D0B08FFB80059A8B1 /* SoundPlayerForMacTrek.m */,
+				2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */,
 				5212F03E0B08FFB80059A8B1 /* SoundPlayerForNetrek.h */,
 				5212F03F0B08FFB80059A8B1 /* SoundPlayerForNetrek.m */,
+				2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */,
 				5212F0400B08FFB80059A8B1 /* SoundPlayerForTac.h */,
+				2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */,
 				5212F0410B08FFB80059A8B1 /* SoundPlayerForTac.m */,
 				52D37C9C0B8A5C1800265266 /* MTVoiceController.h */,
 				52D37C9D0B8A5C1800265266 /* MTVoiceController.m */,
@@ -1095,9 +1110,9 @@
 				528E7EC70B0A680700B22943 /* orion.png in Resources */,
 				528E7EC90B0A680A00B22943 /* romulan.png in Resources */,
 				52C7A7F00B17800900F2D523 /* mactrek-mosaic.jpg in Resources */,
+				2FD16AD222236D0800E1ACC8 /* license.txt in Resources */,
 				52756F210B3554CA00631149 /* PRECOMPILED in Resources */,
 				5270A4A60BAB0F9600635F95 /* SpockTorpedo.jpg in Resources */,
-				5253D56F0BCF790E0075E0D5 /* licence.rtf in Resources */,
 				527B94E10BFE0C3600B4D740 /* MacTrekUserManual.pdf in Resources */,
 				5293B1410C00792B00794379 /* hud_titlebar-close.tiff in Resources */,
 				52AA52290C08834200C68D78 /* tips.plist in Resources */,
@@ -1132,6 +1147,7 @@
 				2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */,
 				5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */,
 				5212F06B0B08FFB80059A8B1 /* JTrekController.m in Sources */,
+				2FD16AD622237AA400E1ACC8 /* SoundPlayerForNetrek.swift in Sources */,
 				5212F06C0B08FFB80059A8B1 /* KeyMapTableDataSource.m in Sources */,
 				5212F06D0B08FFB80059A8B1 /* LoginManager.m in Sources */,
 				5212F06E0B08FFB80059A8B1 /* MessagesDataSource.m in Sources */,
@@ -1151,12 +1167,14 @@
 				5212F07C0B08FFB80059A8B1 /* ServerReaderUdp.m in Sources */,
 				5212F07D0B08FFB80059A8B1 /* ServerSender.m in Sources */,
 				5212F07E0B08FFB80059A8B1 /* ServerSenderTcp.m in Sources */,
+				2FECB48F22239C5000AB7ED9 /* NSNotification+extensions.swift in Sources */,
 				5212F07F0B08FFB80059A8B1 /* ServerSenderUdp.m in Sources */,
 				5212F0800B08FFB80059A8B1 /* ShortPacketWarningHandler.m in Sources */,
 				5212F0810B08FFB80059A8B1 /* UdpStats.m in Sources */,
 				5212F0820B08FFB80059A8B1 /* Entity.m in Sources */,
 				5212F0830B08FFB80059A8B1 /* Feature.m in Sources */,
 				5212F0840B08FFB80059A8B1 /* FeatureList.m in Sources */,
+				2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */,
 				5212F0850B08FFB80059A8B1 /* Phaser.m in Sources */,
 				5212F0860B08FFB80059A8B1 /* Planet.m in Sources */,
 				5212F0870B08FFB80059A8B1 /* Plasma.m in Sources */,
@@ -1228,6 +1246,7 @@
 				52DC5E3A0B31574200C78FD1 /* LLSystemInformation.m in Sources */,
 				52DC5F0C0B3159DE00C78FD1 /* ServerControllerNew.m in Sources */,
 				52D37C9E0B8A5C1800265266 /* MTVoiceController.m in Sources */,
+				2FD16AD022234C9100E1ACC8 /* SoundPlayer.swift in Sources */,
 				52F819800B8EDB73003ED1BE /* MTMouseMap.m in Sources */,
 				5256E09F0B931D560078C491 /* MTMacroHandler.m in Sources */,
 				5256E0B20B9320D80078C491 /* MTMacro.m in Sources */,
@@ -1246,6 +1265,7 @@
 				5293B13E0C00791900794379 /* LLHUDWindow.m in Sources */,
 				5293B13F0C00791900794379 /* LLHUDWindowController.m in Sources */,
 				52C6548E0C04CECF004330BE /* MTFontInstaller.m in Sources */,
+				2FD16AD4222375D900E1ACC8 /* SoundPlayerForMacTrek.swift in Sources */,
 				524112EF0C08778500342E93 /* MTTipOfTheDayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

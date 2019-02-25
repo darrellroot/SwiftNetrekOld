@@ -11,6 +11,14 @@ import AVFoundation
 @objc class SoundEffect: NSObject {
     var name: NSString?
     var soundInstances: [AVAudioPlayer] = []
+    convenience init(_ soundName: NSString) {
+        self.init()
+        _ = self.loadSoundWithName(soundName)
+    }
+    convenience init(_ soundName: NSString, number: Int) {
+        self.init()
+        _ = self.loadSoundWithName(soundName, nrOfInstances: number)
+    }
     override init () {
         super.init()
     }
