@@ -60,7 +60,7 @@ import Foundation
     func speechRecognizer(_ sender: NSSpeechRecognizer, didRecognizeCommand: String) {
         if let index = cmds.index(of: didRecognizeCommand) {
             let act = codes[index]
-            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "VC_VOICE_COMMAND"), object: nil, userInfo: [act:act])
+            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "VC_VOICE_COMMAND"), object: nil, userInfo: ["VC_VOICE_COMMAND":act])
         } else {
             debugPrint("speech recognizer command \(didRecognizeCommand) not programmed")
         }

@@ -42,7 +42,7 @@
     [normalAttribute setValue:col forKey:NSForegroundColorAttributeName];
     NSDictionary *attr = normalAttribute;
     
-    /*
+ /*
     NSDictionary *attr =[[NSDictionary dictionaryWithObjectsAndKeys:
         col, NSForegroundColorAttributeName,
         font , NSFontAttributeName, 
@@ -58,6 +58,7 @@
         // remove first
         NSAttributedString *tempStr = [stringList objectAtIndex:0];
         [tempStr release];
+        //TODO bug here, sometimes EXC_BAD_ACCESS in line below
         [stringList removeObjectAtIndex:0]; 
         
         // the selected row scrolled up
@@ -222,3 +223,4 @@
 }
 
 @end
+

@@ -90,7 +90,9 @@ bool sendEvents = YES;
              object:(NSString *)notificationSender      // nil means of all
            useLocks:(bool)protect 
   useMainRunLoop:(bool)useMainLoop {                                                     
-    
+    LLLog(@"LLNotificationCenter.addObserver name");
+    LLLog(notificationName);
+
     if (notificationObserver == nil) {
         LLLog(@"LLNotificationCenter.addObserver notificationObserver cannot be nil");
         return;
@@ -128,7 +130,7 @@ bool sendEvents = YES;
 
 - (void) remotelyPostedEvent:(LLNotificationCenterEntry *)listener {
     
-    //LLLog(@"LLNotificationCenter.remotelyPostedEvent %@", [listener name]); 
+    LLLog(@"LLNotificationCenter.remotelyPostedEvent %@", [listener name]);
     
     // get the parameters passed over the DO
     id target = [listener target];

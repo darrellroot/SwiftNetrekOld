@@ -8,6 +8,7 @@
 import Foundation
 
 @objc class SoundPlayer: NSObject {
+    let notificationCenter = LLNotificationCenter.default()
     var volumeFX: Float = 0.5
     var volumeMusic: Float = 0.5
     var soundEffects: [String:SoundEffect] = [:]
@@ -39,23 +40,42 @@ import Foundation
         self.volumeMusic = vol
     }
     @objc func subscribeToNotifications() {
-        NotificationCenter.default.addObserver(self, selector: #selector(handleAlertChanged),name: NSNotification.Name(rawValue: "PL_ALERT_STATUS_CHANGED"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleCloakChanged),name: NSNotification.Name(rawValue: "PL_CLOAKING"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleCloakChanged),name: NSNotification.Name(rawValue: "PL_UNCLOAKING"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleMyPhaser),name: NSNotification.Name(rawValue: "PL_MY_PHASER_FIRING"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleOtherPhaser),name: NSNotification.Name(rawValue: "PL_OTHER_PHASER_FIRING"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleMyTorpFired),name: NSNotification.Name(rawValue: "PL_TORP_FIRED_BY_ME"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleOtherTorpFired),name: NSNotification.Name(rawValue: "PL_TORP_FIRED_BY_OTHER"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleTorpExploded),name: NSNotification.Name(rawValue: "PL_TORP_EXPLODED"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleMyPlasmaFired),name: NSNotification.Name(rawValue: "PL_PLASMA_FIRED_BY_ME"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleOtherPlasmaFired),name: NSNotification.Name(rawValue: "PL_PLASMA_FIRED_BY_OTHER"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handlePlasmaExploded),name: NSNotification.Name(rawValue: "PL_PLASMA_EXPLODED"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handlePlayerExploded),name: NSNotification.Name(rawValue: "PL_EXPLODE_PLAYER"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleSelfDestruct),name: NSNotification.Name(rawValue: "SPW_SELF_DESTRUCT_INITIATED"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleShieldsPlayer),name: NSNotification.Name(rawValue: "PL_SHIELD_UP_PLAYER"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleShieldsPlayer),name: NSNotification.Name(rawValue: "PL_SHIELD_DOWN_PLAYER"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleSpeedChangeRequest),name: NSNotification.Name(rawValue: "COMM_SEND_SPEED_REQ"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleMessageSent),name: NSNotification.Name(rawValue: "COMM_SEND_MESSAGE"), object: nil)
+        
+        notificationCenter?.addObserver(self, selector: #selector(handleAlertChanged), name: "PL_ALERT_STATUS_CHANGED")
+        notificationCenter?.addObserver(self, selector: #selector(handleCloakChanged), name: "PL_CLOAKING")
+        notificationCenter?.addObserver(self, selector: #selector(handleAlertChanged), name: "PL_UNCLOAKING")
+        notificationCenter?.addObserver(self, selector: #selector(handleMyPhaser), name: "PL_MY_PHASER_FIRING")
+        notificationCenter?.addObserver(self, selector: #selector(handleOtherPhaser), name: "PL_OTHER_PHASER_FIRING")
+        notificationCenter?.addObserver(self, selector: #selector(handleMyTorpFired), name: "PL_TORP_FIRED_BY_ME")
+        notificationCenter?.addObserver(self, selector: #selector(handleOtherTorpFired), name: "PL_TORP_FIRED_BY_OTHER")
+        notificationCenter?.addObserver(self, selector: #selector(handleTorpExploded), name: "PL_TORP_EXPLODED")
+        notificationCenter?.addObserver(self, selector: #selector(handleMyPlasmaFired), name: "PL_PLASMA_FIRED_BY_ME")
+        notificationCenter?.addObserver(self, selector: #selector(handleOtherPlasmaFired), name: "PL_PLASMA_FIRED_BY_OTHER")
+        notificationCenter?.addObserver(self, selector: #selector(handlePlasmaExploded), name: "PL_PLASMA_EXPLODED")
+        notificationCenter?.addObserver(self, selector: #selector(handlePlayerExploded), name: "PL_EXPLODE_PLAYER")
+        notificationCenter?.addObserver(self, selector: #selector(handleSelfDestruct), name: "SPW_SELF_DESTRUCT_INITIATED")
+        notificationCenter?.addObserver(self, selector: #selector(handleShieldsPlayer), name: "PL_SHIELD_UP_PLAYER")
+        notificationCenter?.addObserver(self, selector: #selector(handleShieldsPlayer), name: "PL_SHIELD_DOWN_PLAYER")
+        notificationCenter?.addObserver(self, selector: #selector(handleSpeedChangeRequest), name: "COMM_SEND_SPEED_REQ")
+        notificationCenter?.addObserver(self, selector: #selector(handleMessageSent), name: "COMM_SEND_MESSAGE")
+
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleAlertChanged),name: NSNotification.Name(rawValue: "PL_ALERT_STATUS_CHANGED"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleCloakChanged),name: NSNotification.Name(rawValue: "PL_CLOAKING"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleCloakChanged),name: NSNotification.Name(rawValue: "PL_UNCLOAKING"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleMyPhaser),name: NSNotification.Name(rawValue: "PL_MY_PHASER_FIRING"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleOtherPhaser),name: NSNotification.Name(rawValue: "PL_OTHER_PHASER_FIRING"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleMyTorpFired),name: NSNotification.Name(rawValue: "PL_TORP_FIRED_BY_ME"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleOtherTorpFired),name: NSNotification.Name(rawValue: "PL_TORP_FIRED_BY_OTHER"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleTorpExploded),name: NSNotification.Name(rawValue: "PL_TORP_EXPLODED"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleMyPlasmaFired),name: NSNotification.Name(rawValue: "PL_PLASMA_FIRED_BY_ME"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleOtherPlasmaFired),name: NSNotification.Name(rawValue: "PL_PLASMA_FIRED_BY_OTHER"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handlePlasmaExploded),name: NSNotification.Name(rawValue: "PL_PLASMA_EXPLODED"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handlePlayerExploded),name: NSNotification.Name(rawValue: "PL_EXPLODE_PLAYER"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleSelfDestruct),name: NSNotification.Name(rawValue: "SPW_SELF_DESTRUCT_INITIATED"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleShieldsPlayer),name: NSNotification.Name(rawValue: "PL_SHIELD_UP_PLAYER"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleShieldsPlayer),name: NSNotification.Name(rawValue: "PL_SHIELD_DOWN_PLAYER"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleSpeedChangeRequest),name: NSNotification.Name(rawValue: "COMM_SEND_SPEED_REQ"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleMessageSent),name: NSNotification.Name(rawValue: "COMM_SEND_MESSAGE"), object: nil)
 
         //[notificationCenter addObserver:self selector:@selector(handleOtherPhaser:) name:@"PL_OTHER_PHASER_FIRING"];
         //[notificationCenter addObserver:self selector:@selector(handleOtherTorpFired:) name:@"PL_TORP_FIRED_BY_OTHER"];

@@ -31,7 +31,10 @@
     inputMode = GV_NORMAL_MODE;
 		
 	// listen to voice commands here
-	[notificationCenter addObserver:self selector:@selector(voiceCommand:) name:@"VC_VOICE_COMMAND"];
+	//[notificationCenter addObserver:self selector:@selector(voiceCommand:) name:@"VC_VOICE_COMMAND"];
+    //NotificationCenter.default.post(name: NSNotification.Name(rawValue: "VC_VOICE_COMMAND"), object: nil, userInfo: [act:act])
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(voiceCommand:) name:@"VC_VOICE_COMMAND" object:nil];
 	[notificationCenter addObserver:self selector:@selector(settingsChanged:) name:@"SC_NEW_SETTINGS"];
 	
 	// and take over any defaults that there may be
@@ -44,12 +47,12 @@
 	mouseMap = [properties objectForKey:@"MOUSE_MAP"];
 }
 
-- (void) voiceCommand:(NSNumber *) action {
-	
+//- (void) voiceCommand:(NSNumber *) action {
+- (void) voiceCommand:(NSNotification *) notification {
 	// before we accept a command, the mouse must
 	// be in our window	
 	NSPoint mousePos = [self mousePos];
-	
+    int32_t action = notification.userInfo[@"VC_VOICE_COMMAND"];
 	if (NSPointInRect(mousePos, [self bounds])) {
 		LLLog(@"GameView.voiceCommand entered");
 		[self performAction:[action intValue]];

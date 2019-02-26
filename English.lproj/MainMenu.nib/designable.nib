@@ -7,7 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Main Window" allowsToolTipsWhenApplicationIsInactive="NO" deferred="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" animationBehavior="default" id="238" userLabel="BackgroundWindow" customClass="LLFullScreenBackgroundWindow">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" texturedBackground="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -330,7 +330,7 @@
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Native" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="1310" id="1429">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1298">
                                                                         <items>
                                                                             <menuItem title="Native" state="on" id="1310"/>
@@ -433,7 +433,7 @@
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Zoom" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="1241" id="1438">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1240">
                                                                         <items>
                                                                             <menuItem title="Course" id="1242"/>
@@ -528,7 +528,7 @@
                                                                 <rect key="frame" x="196" y="51" width="500" height="438"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <clipView key="contentView" id="gDZ-Nv-pcK">
-                                                                    <rect key="frame" x="1" y="25" width="498" height="412"/>
+                                                                    <rect key="frame" x="1" y="0.0" width="498" height="437"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" headerView="1535" id="1246">
@@ -541,12 +541,12 @@
                                                                             <tableColumns>
                                                                                 <tableColumn identifier="description" width="354" minWidth="40" maxWidth="1000" id="1248">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Control">
-                                                                                        <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
                                                                                     <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="1526">
-                                                                                        <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="cellTitle"/>
                                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                                     </textFieldCell>
@@ -554,12 +554,12 @@
                                                                                 </tableColumn>
                                                                                 <tableColumn identifier="key" width="138" minWidth="31" maxWidth="1000" id="1247">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Key">
-                                                                                        <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
                                                                                     <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="1525">
-                                                                                        <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="cellTitle"/>
                                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                                     </textFieldCell>
@@ -598,7 +598,7 @@
                                                                 <rect key="frame" x="196" y="51" width="500" height="438"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <clipView key="contentView" id="M2B-xq-aPd">
-                                                                    <rect key="frame" x="1" y="25" width="498" height="412"/>
+                                                                    <rect key="frame" x="1" y="0.0" width="498" height="437"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" headerView="1538" id="1269">
@@ -611,12 +611,12 @@
                                                                             <tableColumns>
                                                                                 <tableColumn identifier="description" width="354" minWidth="40" maxWidth="1000" id="1271">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Control">
-                                                                                        <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
                                                                                     <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="1528">
-                                                                                        <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="cellTitle"/>
                                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                                     </textFieldCell>
@@ -624,12 +624,12 @@
                                                                                 </tableColumn>
                                                                                 <tableColumn identifier="key" width="138" minWidth="31" maxWidth="1000" id="1270">
                                                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Key">
-                                                                                        <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="smallSystem"/>
                                                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                                     </tableHeaderCell>
                                                                                     <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="1527">
-                                                                                        <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                                        <font key="font" metaFont="cellTitle"/>
                                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                                     </textFieldCell>
@@ -785,7 +785,7 @@ Commands</string>
                                             <rect key="frame" x="239" y="239" width="538" height="223"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             <clipView key="contentView" id="8dU-Xt-SeL">
-                                                <rect key="frame" x="1" y="25" width="536" height="197"/>
+                                                <rect key="frame" x="1" y="0.0" width="536" height="222"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" headerView="1530" id="515">
@@ -798,48 +798,48 @@ Commands</string>
                                                         <tableColumns>
                                                             <tableColumn identifier="address" editable="NO" width="268" minWidth="40" maxWidth="1000" id="518">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Server">
-                                                                    <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
                                                                 <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="1523">
-                                                                    <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="cellTitle"/>
                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 </textFieldCell>
                                                             </tableColumn>
                                                             <tableColumn identifier="status" editable="NO" width="117" minWidth="40" maxWidth="1000" id="517">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Status">
-                                                                    <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
                                                                 <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="1522">
-                                                                    <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="cellTitle"/>
                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 </textFieldCell>
                                                             </tableColumn>
                                                             <tableColumn identifier="players" editable="NO" width="49" minWidth="10" maxWidth="1000" id="519">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Players">
-                                                                    <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
                                                                 <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="center" id="1524">
-                                                                    <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="cellTitle"/>
                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 </textFieldCell>
                                                             </tableColumn>
                                                             <tableColumn identifier="game" editable="NO" width="75" minWidth="35" maxWidth="1000" id="516">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Game">
-                                                                    <font key="font" size="11" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
                                                                 <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="1521">
-                                                                    <font key="font" size="12" name=".AppleSystemUIFont"/>
+                                                                    <font key="font" metaFont="cellTitle"/>
                                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 </textFieldCell>
@@ -1091,7 +1091,7 @@ Commands</string>
                             <tabViewItem label="Login" identifier="Login" id="508">
                                 <view key="view" id="509">
                                     <rect key="frame" x="10" y="7" width="1018" height="770"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <imageView id="729">
                                             <rect key="frame" x="0.0" y="-135" width="1018" height="885"/>
@@ -1377,17 +1377,17 @@ Commands</string>
                             <tabViewItem label="Game" identifier="Game" id="512">
                                 <view key="view" id="513">
                                     <rect key="frame" x="10" y="7" width="1018" height="770"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <box title="Box" titlePosition="noTitle" id="878">
-                                            <rect key="frame" x="0.0" y="666" width="700" height="91"/>
+                                            <rect key="frame" x="0.0" y="666" width="699" height="91"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                             <view key="contentView" id="lBC-Ec-fmx">
-                                                <rect key="frame" x="3" y="3" width="694" height="85"/>
+                                                <rect key="frame" x="3" y="3" width="693" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" id="882">
-                                                        <rect key="frame" x="13" y="45" width="42" height="11"/>
+                                                        <rect key="frame" x="12" y="45" width="42" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Shield" id="1502">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1396,7 +1396,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="883">
-                                                        <rect key="frame" x="13" y="27" width="42" height="11"/>
+                                                        <rect key="frame" x="12" y="27" width="42" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Hull" id="1503">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1405,7 +1405,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="884">
-                                                        <rect key="frame" x="13" y="64" width="42" height="11"/>
+                                                        <rect key="frame" x="12" y="64" width="42" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Speed" id="1504">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1414,7 +1414,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="886">
-                                                        <rect key="frame" x="13" y="8" width="42" height="11"/>
+                                                        <rect key="frame" x="12" y="8" width="42" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Fuel" id="1505">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1459,7 +1459,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="896">
-                                                        <rect key="frame" x="484" y="66" width="54" height="11"/>
+                                                        <rect key="frame" x="483" y="66" width="54" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Connection" id="1510">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1468,7 +1468,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="934">
-                                                        <rect key="frame" x="51" y="8" width="133" height="11"/>
+                                                        <rect key="frame" x="50" y="8" width="133" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="0 / 0" id="1511">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1477,7 +1477,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="940">
-                                                        <rect key="frame" x="357" y="47" width="133" height="11"/>
+                                                        <rect key="frame" x="356" y="47" width="133" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="0 / 0" id="1512">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1486,7 +1486,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="938">
-                                                        <rect key="frame" x="357" y="28" width="133" height="11"/>
+                                                        <rect key="frame" x="356" y="28" width="133" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="0 / 0" id="1513">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1495,7 +1495,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="928">
-                                                        <rect key="frame" x="51" y="64" width="133" height="11"/>
+                                                        <rect key="frame" x="50" y="64" width="133" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="0 / 0" id="1514">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1504,7 +1504,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="926">
-                                                        <rect key="frame" x="51" y="45" width="133" height="11"/>
+                                                        <rect key="frame" x="50" y="45" width="133" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="0 / 0" id="1515">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1513,7 +1513,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="927">
-                                                        <rect key="frame" x="51" y="27" width="133" height="11"/>
+                                                        <rect key="frame" x="50" y="27" width="133" height="11"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="0 / 0" id="1516">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1522,23 +1522,23 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <customView id="946" customClass="LLBar">
-                                                        <rect key="frame" x="182" y="62" width="127" height="16"/>
+                                                        <rect key="frame" x="181" y="62" width="127" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     </customView>
                                                     <customView id="948" customClass="LLBar">
-                                                        <rect key="frame" x="182" y="44" width="127" height="16"/>
+                                                        <rect key="frame" x="181" y="44" width="127" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     </customView>
                                                     <customView id="949" customClass="LLBar">
-                                                        <rect key="frame" x="182" y="26" width="127" height="16"/>
+                                                        <rect key="frame" x="181" y="26" width="127" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     </customView>
                                                     <customView id="950" customClass="LLBar">
-                                                        <rect key="frame" x="182" y="7" width="127" height="16"/>
+                                                        <rect key="frame" x="181" y="7" width="127" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     </customView>
                                                     <customView id="951" customClass="LLBar">
-                                                        <rect key="frame" x="383" y="63" width="73" height="16"/>
+                                                        <rect key="frame" x="383" y="63" width="72" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     </customView>
                                                     <customView id="952" customClass="LLBar">
@@ -1565,22 +1565,22 @@ Commands</string>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         </customView>
                                         <customView id="625" customClass="MapView">
-                                            <rect key="frame" x="702" y="0.0" width="316" height="316"/>
+                                            <rect key="frame" x="701" y="0.0" width="317" height="316"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         </customView>
-                                        <customView id="1021" customClass="MessagesListView">
-                                            <rect key="frame" x="702" y="319" width="316" height="206"/>
+                                        <customView id="1021" customClass="MessagesListView" customModule="SwiftNetrek" customModuleProvider="target">
+                                            <rect key="frame" x="701" y="319" width="317" height="206"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         </customView>
-                                        <customView id="1024" customClass="PlayerListView">
-                                            <rect key="frame" x="702" y="553" width="316" height="182"/>
+                                        <customView id="1024" customClass="PlayerListView" customModule="SwiftNetrek" customModuleProvider="target">
+                                            <rect key="frame" x="701" y="553" width="317" height="182"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                         </customView>
                                         <box boxType="oldStyle" borderType="line" title="Box" titlePosition="noTitle" id="1035">
-                                            <rect key="frame" x="702" y="735" width="316" height="20"/>
+                                            <rect key="frame" x="701" y="735" width="317" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                             <view key="contentView" id="PEs-ss-3Ic">
-                                                <rect key="frame" x="1" y="1" width="314" height="18"/>
+                                                <rect key="frame" x="1" y="1" width="315" height="18"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" id="1037">
@@ -1593,7 +1593,7 @@ Commands</string>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" id="1038">
-                                                        <rect key="frame" x="57" y="1" width="259" height="14"/>
+                                                        <rect key="frame" x="57" y="1" width="260" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                         <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" title="Booted Up" id="1518">
                                                             <font key="font" metaFont="miniSystem"/>
@@ -1605,14 +1605,14 @@ Commands</string>
                                             </view>
                                         </box>
                                         <box boxType="oldStyle" borderType="line" title="Box" titlePosition="noTitle" id="1040">
-                                            <rect key="frame" x="702" y="527" width="316" height="24"/>
+                                            <rect key="frame" x="701" y="527" width="317" height="24"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <view key="contentView" id="jWn-WG-shP">
-                                                <rect key="frame" x="1" y="1" width="314" height="22"/>
+                                                <rect key="frame" x="1" y="1" width="315" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textField verticalHuggingPriority="750" id="1042">
-                                                        <rect key="frame" x="57" y="0.0" width="255" height="20"/>
+                                                        <rect key="frame" x="57" y="0.0" width="256" height="20"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="1519">
                                                             <font key="font" metaFont="miniSystem"/>

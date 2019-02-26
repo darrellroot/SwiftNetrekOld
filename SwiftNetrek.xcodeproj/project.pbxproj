@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F048F2F22230A8700F7044F /* SoundEffect.swift */; };
+		2F79775E22249C9C00AE40CD /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79775D22249C9C00AE40CD /* PlayerListView.swift */; };
+		2F7977622224AA6500AE40CD /* DRStringList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977612224AA6500AE40CD /* DRStringList.swift */; };
+		2F7977642224CAE700AE40CD /* MessagesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977632224CAE700AE40CD /* MessagesListView.swift */; };
+		2F7977662224E4AD00AE40CD /* DRStringTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977652224E4AD00AE40CD /* DRStringTable.swift */; };
+		2F7977692225016600AE40CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7977682225016600AE40CD /* AVFoundation.framework */; };
 		2FD16AD022234C9100E1ACC8 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */; };
 		2FD16AD222236D0800E1ACC8 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD16AD122236D0800E1ACC8 /* license.txt */; };
 		2FD16AD4222375D900E1ACC8 /* SoundPlayerForMacTrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */; };
 		2FD16AD622237AA400E1ACC8 /* SoundPlayerForNetrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */; };
 		2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */; };
-		2FECB48F22239C5000AB7ED9 /* NSNotification+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */; };
 		2FECB4912223A41E00AB7ED9 /* MTVoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECB4902223A41E00AB7ED9 /* MTVoiceController.swift */; };
 		5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB70B08FFB80059A8B1 /* BeepLite.m */; };
 		5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB90B08FFB80059A8B1 /* ClientController.m */; };
@@ -85,7 +89,6 @@
 		5212F0AC0B08FFB80059A8B1 /* PlayerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F04A0B08FFB80059A8B1 /* PlayerListView.m */; };
 		521B0B3F0BA4166700CCE3EB /* LLScreenResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 521B0B3E0BA4166700CCE3EB /* LLScreenResolution.m */; };
 		521F4D960BA5E8CB00EC77AF /* LLRendezvousController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521F4D950BA5E8CB00EC77AF /* LLRendezvousController.m */; };
-		5220A6C80A598D2900ADAD05 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5220A6C70A598D2900ADAD05 /* QTKit.framework */; };
 		52248D1A0BD568A500B80C6B /* LLHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 52248D190BD568A500B80C6B /* LLHost.m */; };
 		52248D1D0BD568B600B80C6B /* LLSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 52248D1C0BD568B600B80C6B /* LLSocket.m */; };
 		52248D200BD568C400B80C6B /* LLUDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 52248D1F0BD568C400B80C6B /* LLUDPSocket.m */; };
@@ -184,12 +187,16 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F048F2E22230A8600F7044F /* MacTrek-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTrek-Bridging-Header.h"; sourceTree = "<group>"; };
 		2F048F2F22230A8700F7044F /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		2F79775D22249C9C00AE40CD /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
+		2F7977612224AA6500AE40CD /* DRStringList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRStringList.swift; sourceTree = "<group>"; };
+		2F7977632224CAE700AE40CD /* MessagesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListView.swift; sourceTree = "<group>"; };
+		2F7977652224E4AD00AE40CD /* DRStringTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRStringTable.swift; sourceTree = "<group>"; };
+		2F7977682225016600AE40CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		2FD16AD122236D0800E1ACC8 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 		2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForMacTrek.swift; sourceTree = "<group>"; };
 		2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForNetrek.swift; sourceTree = "<group>"; };
 		2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForTac.swift; sourceTree = "<group>"; };
-		2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+extensions.swift"; sourceTree = "<group>"; };
 		2FECB4902223A41E00AB7ED9 /* MTVoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTVoiceController.swift; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacTrek_Prefix.pch; path = Classes/MacTrek/Other/MacTrek_Prefix.pch; sourceTree = "<group>"; };
 		5212EFB60B08FFB80059A8B1 /* BeepLite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BeepLite.h; sourceTree = "<group>"; };
@@ -483,8 +490,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7977692225016600AE40CD /* AVFoundation.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				5220A6C80A598D2900ADAD05 /* QTKit.framework in Frameworks */,
 				529847F20A7E909C00918799 /* Quartz.framework in Frameworks */,
 				52DC5E4F0B3158D600C78FD1 /* SystemConfiguration.framework in Frameworks */,
 				52DC5EF00B3158EA00C78FD1 /* IOKit.framework in Frameworks */,
@@ -551,7 +558,6 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				2FECB48E22239C5000AB7ED9 /* NSNotification+extensions.swift */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -595,10 +601,22 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F7977682225016600AE40CD /* AVFoundation.framework */,
 				1058C7A0FEA54F0111CA2CBB /* SDK Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* System Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F7977672224FFAD00AE40CD /* old */ = {
+			isa = PBXGroup;
+			children = (
+				5212F04A0B08FFB80059A8B1 /* PlayerListView.m */,
+				5212F0470B08FFB80059A8B1 /* MessagesListView.h */,
+				5212F0480B08FFB80059A8B1 /* MessagesListView.m */,
+				5212F0490B08FFB80059A8B1 /* PlayerListView.h */,
+			);
+			path = old;
 			sourceTree = "<group>";
 		};
 		5212EFB40B08FFB80059A8B1 /* MacTrek */ = {
@@ -842,14 +860,13 @@
 		5212F0420B08FFB80059A8B1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F7977672224FFAD00AE40CD /* old */,
 				5212F0430B08FFB80059A8B1 /* GameView.h */,
 				5212F0440B08FFB80059A8B1 /* GameView.m */,
 				5212F0450B08FFB80059A8B1 /* MapView.h */,
 				5212F0460B08FFB80059A8B1 /* MapView.m */,
-				5212F0470B08FFB80059A8B1 /* MessagesListView.h */,
-				5212F0480B08FFB80059A8B1 /* MessagesListView.m */,
-				5212F0490B08FFB80059A8B1 /* PlayerListView.h */,
-				5212F04A0B08FFB80059A8B1 /* PlayerListView.m */,
+				2F7977632224CAE700AE40CD /* MessagesListView.swift */,
+				2F79775D22249C9C00AE40CD /* PlayerListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -978,6 +995,8 @@
 				528E7DF70B0A649E00B22943 /* LLShapes.m */,
 				528E7DF80B0A649E00B22943 /* LLStringList.h */,
 				528E7DF90B0A649E00B22943 /* LLStringList.m */,
+				2F7977612224AA6500AE40CD /* DRStringList.swift */,
+				2F7977652224E4AD00AE40CD /* DRStringTable.swift */,
 				528E7DFA0B0A649E00B22943 /* LLStringTable.h */,
 				528E7DFB0B0A649E00B22943 /* LLStringTable.m */,
 				528E7DFC0B0A649E00B22943 /* LLTransparentWindow.h */,
@@ -1147,6 +1166,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */,
+				2F7977662224E4AD00AE40CD /* DRStringTable.swift in Sources */,
 				2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */,
 				5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */,
 				5212F06B0B08FFB80059A8B1 /* JTrekController.m in Sources */,
@@ -1169,14 +1189,15 @@
 				5212F07B0B08FFB80059A8B1 /* ServerReaderTcp.m in Sources */,
 				5212F07C0B08FFB80059A8B1 /* ServerReaderUdp.m in Sources */,
 				5212F07D0B08FFB80059A8B1 /* ServerSender.m in Sources */,
+				2F7977622224AA6500AE40CD /* DRStringList.swift in Sources */,
 				5212F07E0B08FFB80059A8B1 /* ServerSenderTcp.m in Sources */,
-				2FECB48F22239C5000AB7ED9 /* NSNotification+extensions.swift in Sources */,
 				5212F07F0B08FFB80059A8B1 /* ServerSenderUdp.m in Sources */,
 				5212F0800B08FFB80059A8B1 /* ShortPacketWarningHandler.m in Sources */,
 				5212F0810B08FFB80059A8B1 /* UdpStats.m in Sources */,
 				5212F0820B08FFB80059A8B1 /* Entity.m in Sources */,
 				5212F0830B08FFB80059A8B1 /* Feature.m in Sources */,
 				5212F0840B08FFB80059A8B1 /* FeatureList.m in Sources */,
+				2F79775E22249C9C00AE40CD /* PlayerListView.swift in Sources */,
 				2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */,
 				5212F0850B08FFB80059A8B1 /* Phaser.m in Sources */,
 				5212F0860B08FFB80059A8B1 /* Planet.m in Sources */,
@@ -1204,6 +1225,7 @@
 				5212F09C0B08FFB80059A8B1 /* Postman.m in Sources */,
 				5212F09D0B08FFB80059A8B1 /* SelectServerController.m in Sources */,
 				5212F09E0B08FFB80059A8B1 /* SettingsController.m in Sources */,
+				2F7977642224CAE700AE40CD /* MessagesListView.swift in Sources */,
 				5212F09F0B08FFB80059A8B1 /* RCMmessage.m in Sources */,
 				5212F0A00B08FFB80059A8B1 /* PainterFactory.m in Sources */,
 				5212F0A10B08FFB80059A8B1 /* PainterFactoryForMacTrek.m in Sources */,

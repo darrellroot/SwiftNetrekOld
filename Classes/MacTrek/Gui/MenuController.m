@@ -139,7 +139,7 @@
 	
 	NSString *pathToResources = [[NSBundle mainBundle] resourcePath];
 	NSString *pathToPdf = [NSString stringWithFormat:@"%@/MacTrekUserManual.pdf", pathToResources];
-	
+	//TODO this freezes game
 	[[NSWorkspace sharedWorkspace] openFile:pathToPdf
 							withApplication:@"Preview"];
 }

@@ -15,7 +15,7 @@
 #import "PlayerListDataSource.h"
 #import "MTKeyMap.h"
 #import "Luky.h"
-#import "PlayerListView.h"
+//#import "PlayerListView.h"
 #import "MessagesListView.h"
 #import "MTVoiceController.h"
 #import "MTMouseMap.h"

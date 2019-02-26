@@ -9,10 +9,16 @@ import Foundation
 @objc class SoundPlayerForMacTrek: SoundPlayer {
     override func subscribeToNotifications() {
         super.subscribeToNotifications()
-        NotificationCenter.default.addObserver(self, selector: #selector(handleTransporter), name: NSNotification.Name(rawValue: "SPW_BEAMUP2_TEXT"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleTransporter), name: NSNotification.Name(rawValue: "SSPW_BEAM_D_PLANET_TEXT"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleTransporter), name: NSNotification.Name(rawValue: "SPW_BEAM_U_TEXT"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(handleDeath), name: NSNotification.Name(rawValue: "CC_GO_OUTFIT"), object: nil)
+        
+        notificationCenter?.addObserver(self, selector: #selector(handleTransporter), name: "SPW_BEAMUP2_TEXT")
+        notificationCenter?.addObserver(self, selector: #selector(handleTransporter), name: "SSPW_BEAM_D_PLANET_TEXT")
+        notificationCenter?.addObserver(self, selector: #selector(handleTransporter), name: "SPW_BEAM_U_TEXT")
+        notificationCenter?.addObserver(self, selector: #selector(handleDeath), name: "CC_GO_OUTFIT")
+
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleTransporter), name: NSNotification.Name(rawValue: "SPW_BEAMUP2_TEXT"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleTransporter), name: NSNotification.Name(rawValue: "SSPW_BEAM_D_PLANET_TEXT"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleTransporter), name: NSNotification.Name(rawValue: "SPW_BEAM_U_TEXT"), object: nil)
+        //NotificationCenter.default.addObserver(self, selector: #selector(handleDeath), name: NSNotification.Name(rawValue: "CC_GO_OUTFIT"), object: nil)
     }
     
     @objc override func loadSounds() {

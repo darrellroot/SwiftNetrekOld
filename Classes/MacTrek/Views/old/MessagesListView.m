@@ -5,7 +5,7 @@
 //  Created by Aqua on 01/08/2006.
 //  Copyright 2006 Luky Soft. See Licence.txt for licence details.
 //
-
+/*
 #import "MessagesListView.h"
 #import "MessageConstants.h"
 
@@ -81,7 +81,7 @@
         }
 
         flags ^= DISTR;
-         */
+         *//*
     } 
     
     [self addString:message withColor:color];
@@ -94,3 +94,4 @@
 }
 
 @end
+*/

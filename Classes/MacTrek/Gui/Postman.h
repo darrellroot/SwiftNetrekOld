@@ -8,10 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 #import "BaseClass.h"
-#import "PlayerListView.h"
+//#import "PlayerListView.h"
 #import "MessagesListView.h"
 #import "MessageConstants.h"
 #import "GameView.h"
+#import "SwiftNetrek-Swift.h"
 
 @interface Postman : BaseClass {
     IBOutlet NSTextField *commTextField;
