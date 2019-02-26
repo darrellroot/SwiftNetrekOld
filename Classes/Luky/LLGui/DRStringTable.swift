@@ -9,13 +9,27 @@ import Cocoa
 
 class DRStringTable: NSView {
 
+    override var isOpaque: Bool {
+        return true
+    }
+
     var hasChangedVal: Bool = false
     var columns: [DRStringList] = []
     let notificationCenter = LLNotificationCenter.default()
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
+        var aRect = self.bounds
+        let columnWidth = self.bounds.size.width / CGFloat(columns.count)
+        aRect.size.width = columnWidth
+        
+        for column in columns {
+            column.bounds = aRect
+            column.draw(aRect)
+            aRect.origin.x = aRect.origin.x + columnWidth
+        }
+        hasChangedVal = false
+        super.draw(aRect)
 
-        // Drawing code here.
     }
     override func awakeFromNib() {
         let list = DRStringList()
@@ -33,19 +47,7 @@ class DRStringTable: NSView {
     @objc func hasChanged() -> Bool {
         return hasChangedVal
     }
-    func draw() {
-        var aRect = self.bounds
-        let columnWidth = self.bounds.size.width / CGFloat(columns.count)
-        aRect.size.width = columnWidth
-        
-        for column in columns {
-            column.bounds = aRect
-            column.draw()
-            aRect.origin.x = aRect.origin.x + columnWidth
-        }
-        hasChangedVal = false
-        super.draw(aRect)
-    }
+
     func mousePos() -> NSPoint {
         let mouseBase = self.window?.mouseLocationOutsideOfEventStream
         let mouseLocation = self.convert(mouseBase ?? NSPoint.zero, from: nil)

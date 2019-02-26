@@ -9,6 +9,9 @@ import Cocoa
 
 class DRStringList: NSView {
 
+    override var isOpaque: Bool {
+        return true
+    }
     let notificationCenter = LLNotificationCenter.default()
     var hasChangedVal = false
     //let font = NSFont(name: "Helvetica", size: 9.0)
@@ -26,6 +29,26 @@ class DRStringList: NSView {
 
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
+        //func drawRect(aRect: NSRect) {
+        NSColor.white.set()
+        //NSFrameRect(aRect)
+        var point: NSPoint = self.bounds.origin
+        point.x = point.x + 1
+        
+        for (i,string) in stringList.enumerated() {
+            if i == selectedRow {
+                let box = NSRect(x: point.x, y: point.y, width: self.bounds.size.width - 2, height: rowHeight)
+                boxColor.set()
+                let boxPath = NSBezierPath(rect: box)
+                boxPath.stroke()
+                let alphaBoxColor = boxColor.withAlphaComponent(0.3)
+                alphaBoxColor.set()
+                boxPath.fill()
+            }
+            string.draw(at: point)
+            point.y = point.y + rowHeight
+        }
+        self.hasChangedVal = false
     }
     
     override func awakeFromNib() {
@@ -57,28 +80,6 @@ class DRStringList: NSView {
         self.name = newName
     }
     
-    func draw() {
-    //func drawRect(aRect: NSRect) {
-        NSColor.white.set()
-        //NSFrameRect(aRect)
-        var point: NSPoint = self.bounds.origin
-        point.x = point.x + 1
-        
-        for (i,string) in stringList.enumerated() {
-            if i == selectedRow {
-                let box = NSRect(x: point.x, y: point.y, width: self.bounds.size.width - 2, height: rowHeight)
-                boxColor.set()
-                let boxPath = NSBezierPath(rect: box)
-                boxPath.stroke()
-                let alphaBoxColor = boxColor.withAlphaComponent(0.3)
-                alphaBoxColor.set()
-                boxPath.fill()
-            }
-            string.draw(at: point)
-            point.y = point.y + rowHeight
-        }
-        self.hasChangedVal = false
-    }
     func mousePos() -> NSPoint {
         let mouseBase = self.window?.mouseLocationOutsideOfEventStream ?? NSPoint.zero
         if mouseBase == NSPoint.zero {
