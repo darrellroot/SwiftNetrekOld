@@ -39,8 +39,9 @@ class DRBaseView: NSView {
         let mouseInView: Bool = NSPointInRect(self.mousePos(), self.bounds)
         myCursorRect = self.addTrackingRect(self.bounds, owner: self, userData: nil, assumeInside: mouseInView)
         if mouseInView {
-            //TODO possible crash here
-            if let event = NSEvent(cgEvent: NSEvent.EventType.mouseEntered as! CGEvent) {
+            //TODO dont know if this works
+            if let event = NSEvent.mouseEvent(with: NSEvent.EventType.mouseEntered, location: self.mousePos(), modifierFlags: [], timestamp: 0.0, windowNumber: 0, context: nil, eventNumber: 0, clickCount: 0, pressure: 0.0) {
+            //if let event = NSEvent(cgEvent: NSEvent.EventType.mouseEntered as? CGEvent) {
                 self.mouseEntered(with: event)
             } else {
                 debugPrint("Error DRBaseView:startTrackingMouse: unable to create nsevent")
