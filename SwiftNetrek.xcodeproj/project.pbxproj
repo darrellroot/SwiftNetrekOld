@@ -13,6 +13,9 @@
 		2F7977642224CAE700AE40CD /* MessagesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977632224CAE700AE40CD /* MessagesListView.swift */; };
 		2F7977662224E4AD00AE40CD /* DRStringTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977652224E4AD00AE40CD /* DRStringTable.swift */; };
 		2F7977692225016600AE40CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7977682225016600AE40CD /* AVFoundation.framework */; };
+		2F7977892225C4F900AE40CD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977882225C4F900AE40CD /* MapView.swift */; };
+		2F79778B2225C9A900AE40CD /* DRBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79778A2225C9A900AE40CD /* DRBaseView.swift */; };
+		2F79778D2225D15000AE40CD /* DRGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79778C2225D15000AE40CD /* DRGameView.swift */; };
 		2FD16AD022234C9100E1ACC8 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */; };
 		2FD16AD222236D0800E1ACC8 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD16AD122236D0800E1ACC8 /* license.txt */; };
 		2FD16AD4222375D900E1ACC8 /* SoundPlayerForMacTrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */; };
@@ -192,6 +195,9 @@
 		2F7977632224CAE700AE40CD /* MessagesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListView.swift; sourceTree = "<group>"; };
 		2F7977652224E4AD00AE40CD /* DRStringTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRStringTable.swift; sourceTree = "<group>"; };
 		2F7977682225016600AE40CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2F7977882225C4F900AE40CD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2F79778A2225C9A900AE40CD /* DRBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRBaseView.swift; sourceTree = "<group>"; };
+		2F79778C2225D15000AE40CD /* DRGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRGameView.swift; sourceTree = "<group>"; };
 		2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		2FD16AD122236D0800E1ACC8 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 		2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForMacTrek.swift; sourceTree = "<group>"; };
@@ -863,8 +869,11 @@
 				2F7977672224FFAD00AE40CD /* old */,
 				5212F0430B08FFB80059A8B1 /* GameView.h */,
 				5212F0440B08FFB80059A8B1 /* GameView.m */,
+				2F79778C2225D15000AE40CD /* DRGameView.swift */,
+				2F79778A2225C9A900AE40CD /* DRBaseView.swift */,
 				5212F0450B08FFB80059A8B1 /* MapView.h */,
 				5212F0460B08FFB80059A8B1 /* MapView.m */,
+				2F7977882225C4F900AE40CD /* MapView.swift */,
 				2F7977632224CAE700AE40CD /* MessagesListView.swift */,
 				2F79775D22249C9C00AE40CD /* PlayerListView.swift */,
 			);
@@ -1181,6 +1190,7 @@
 				5212F0730B08FFB80059A8B1 /* RobotsController.m in Sources */,
 				5212F0740B08FFB80059A8B1 /* ServerController.m in Sources */,
 				5212F0750B08FFB80059A8B1 /* Communication.m in Sources */,
+				2F7977892225C4F900AE40CD /* MapView.swift in Sources */,
 				5212F0760B08FFB80059A8B1 /* MetaServerEntry.m in Sources */,
 				5212F0770B08FFB80059A8B1 /* MetaServerParser.m in Sources */,
 				5212F0780B08FFB80059A8B1 /* PacketTypesDebug.m in Sources */,
@@ -1201,6 +1211,7 @@
 				2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */,
 				5212F0850B08FFB80059A8B1 /* Phaser.m in Sources */,
 				5212F0860B08FFB80059A8B1 /* Planet.m in Sources */,
+				2F79778D2225D15000AE40CD /* DRGameView.swift in Sources */,
 				5212F0870B08FFB80059A8B1 /* Plasma.m in Sources */,
 				5212F0880B08FFB80059A8B1 /* Player.m in Sources */,
 				5212F0890B08FFB80059A8B1 /* PlayerStats.m in Sources */,
@@ -1260,6 +1271,7 @@
 				528E7E1D0B0A649E00B22943 /* LLStringTable.m in Sources */,
 				528E7E1E0B0A649E00B22943 /* LLTransparentWindow.m in Sources */,
 				528E7E240B0A649E00B22943 /* LLPersistantSettings.m in Sources */,
+				2F79778B2225C9A900AE40CD /* DRBaseView.swift in Sources */,
 				528E7E250B0A649E00B22943 /* LLScreenShotController.m in Sources */,
 				528E7E260B0A649E00B22943 /* LLTaskWrapper.m in Sources */,
 				528E7E300B0A650800B22943 /* LLObject.m in Sources */,

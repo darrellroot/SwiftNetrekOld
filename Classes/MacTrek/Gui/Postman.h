@@ -11,7 +11,7 @@
 //#import "PlayerListView.h"
 #import "MessagesListView.h"
 #import "MessageConstants.h"
-#import "GameView.h"
+//#import "GameView.h"
 #import "SwiftNetrek-Swift.h"
 
 @interface Postman : BaseClass {
@@ -19,7 +19,7 @@
     IBOutlet NSTextField *toField; 
     IBOutlet PlayerListView *playerList;
     IBOutlet MessagesListView *messageList;
-	IBOutlet GameView *gameView;
+	IBOutlet DRGameView *gameView;
 }
 
 // get/set the field (called by click in lists or keyevent)

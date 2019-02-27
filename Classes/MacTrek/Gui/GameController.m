@@ -72,7 +72,7 @@ bool forceBarUpdate = NO;
 	[self newMessage:@"This server is full, please select a different server"];
 }
 
-- (GameView *)gameView {
+- (DRGameView *)gameView {
 	return gameView;
 }
 

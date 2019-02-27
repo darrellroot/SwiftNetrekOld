@@ -21,7 +21,7 @@
 #import "PainterFactoryForMacTrek.h"
 #import "PainterFactoryForTac.h"
 #import "ServerControllerNew.h"
-#import "GameView.h"
+//#import "GameView.h"
 #import "LLNetServiceDelegate.h"
 #import "MTTipOfTheDayController.h"
 #import "SwiftNetrek-Swift.h"

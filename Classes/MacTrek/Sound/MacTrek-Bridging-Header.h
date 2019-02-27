@@ -9,3 +9,24 @@
 #import "MTKeyMap.h"
 #import "LLNotificationCenter.h"
 #import "MessageConstants.h"
+#import "LLObject.h"
+#import "LLView.h"
+#import "PainterFactory.h"
+#import "MTMouseMap.h"
+#import "SettingsController.h"
+#import "MTDistress.h"
+#import "MTMacroHandler.h"
+
+//#import "GameView.h"
+#define FRAME_RATE  10
+#define MAX_WAIT_BEFORE_DRAW  (1/(2*FRAME_RATE))
+// 10%
+#define GV_SCALE_STEP 0.1
+// input modes
+#define GV_NORMAL_MODE    0
+#define GV_MESSAGE_MODE    1
+#define GV_MACRO_MODE    2
+#define GV_REFIT_MODE    3
+#define GV_WAR_MODE        4
+
+

@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "BaseClass.h"
 #import "Data.h"
-#import "GameView.h"
+//#import "GameView.h"
 #import "MapView.h"
 #import "MessagesDataSource.h"
 #import "PlayerListDataSource.h"
@@ -60,14 +60,14 @@
     IBOutlet MessagesListView   *messages;
     
     // game window
-    IBOutlet GameView         *gameView;
+    IBOutlet DRGameView         *gameView;
     IBOutlet MapView          *mapView;
 	
 	// other
 	float frameRate;    
 }
 
-- (GameView *)gameView;
+- (DRGameView *)gameView;
 - (MapView *)mapView;
 - (void) repaint:(float)timeSinceLastDraw;
 - (void) startGame;
