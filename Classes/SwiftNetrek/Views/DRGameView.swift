@@ -11,7 +11,7 @@ class DRGameView: DRBaseView {
 
     var warMask: Int32 = 0
     var warTeam: Team? = nil
-    let step = GV_SCALE_STEP
+    var step = GV_SCALE_STEP
     var actionKeyMap: MTKeyMap? = nil
     var distressKeyMap: MTKeyMap? = nil
     var mouseMap: MTMouseMap? = nil
@@ -46,7 +46,7 @@ class DRGameView: DRBaseView {
             debugPrint("DRGameView:voiceCommand ignored \(String(describing: notification.userInfo))")
         }
     }
-    func makeFirstResponder() {
+    @objc func makeFirstResponder() {
         self.window?.makeFirstResponder(self)
     }
     @objc func setPainter(_ newPainter: PainterFactory) {

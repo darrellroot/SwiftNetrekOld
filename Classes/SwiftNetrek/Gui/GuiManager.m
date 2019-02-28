@@ -8,6 +8,7 @@
 
 #import "GuiManager.h"
 #import "SwiftNetrek-Swift.h"
+#define FRAME_RATE 10
 //
 // The GuiManger maintains (among others) the game state machine, or to be precise the state machine that handles
 // the changes between the menus. It uses the following table to jump between states and specifies which events

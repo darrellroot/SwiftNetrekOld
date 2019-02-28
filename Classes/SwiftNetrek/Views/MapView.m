@@ -5,7 +5,7 @@
 //  Created by Aqua on 02/06/2006.
 //  Copyright 2006 Luky Soft. See Licence.txt for licence details.
 //
-
+/*
 #import "MapView.h"
 
 
@@ -60,7 +60,7 @@ NSRect gameBounds;
 - (void) mouseDown:(NSEvent *)theEvent {
 	
 	// command click moves center point BUG 1636263
-	// (wouldn't it be cool if you could drag?) 
+	// (wouldn't it be cool if you could drag?)
 	if ( [theEvent modifierFlags] & NSCommandKeyMask ) {
 		// where you click becomes the center
 		centerPoint = [painter gamePointFromViewPoint:[self mousePos] 
@@ -95,3 +95,5 @@ NSRect gameBounds;
 }
 
 @end
+ 
+*/

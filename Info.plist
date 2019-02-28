@@ -20,6 +20,8 @@
 	<string>CNL1</string>
 	<key>CFBundleVersion</key>
 	<string>1.6.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.strategy-games</string>
 	<key>MacTrekVersion</key>
 	<string>1.6.0</string>
 	<key>NSMainNibFile</key>

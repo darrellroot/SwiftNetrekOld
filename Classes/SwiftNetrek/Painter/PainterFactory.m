@@ -51,7 +51,7 @@
 	// nasty startup threading bug, remove as many threads as possible..
 	[self cacheImages]; 
 	[notificationCenter postNotificationName:@"PF_IMAGES_CACHED"];
-	//LLLog(@"PainterFactory.awakeFromNib: images cached");
+	LLLog(@"PainterFactory.awakeFromNib: PF_IMAGES_CACHED");
 }
 
 - (void) setSimplifyDrawing:(bool)simpleDraw {

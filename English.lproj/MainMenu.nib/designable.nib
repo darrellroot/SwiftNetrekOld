@@ -213,7 +213,7 @@
                             <tabViewItem label="Settings" identifier="Settings" id="506">
                                 <view key="view" id="507">
                                     <rect key="frame" x="10" y="7" width="1018" height="770"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <imageView id="725">
                                             <rect key="frame" x="-135" y="-64" width="1181" height="946"/>
@@ -239,7 +239,7 @@
                                                 <tabViewItem label="General" identifier="1" id="1195">
                                                     <view key="view" id="1196">
                                                         <rect key="frame" x="10" y="33" width="893" height="509"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <textField verticalHuggingPriority="750" id="1205">
                                                                 <rect key="frame" x="276" y="237" width="107" height="23"/>
@@ -1200,7 +1200,7 @@ Commands</string>
                             <tabViewItem label="Outfit" identifier="Outfit" id="510">
                                 <view key="view" id="511">
                                     <rect key="frame" x="10" y="7" width="1018" height="770"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <imageView id="803">
                                             <rect key="frame" x="-19" y="-203" width="1060" height="1152"/>
@@ -1564,7 +1564,7 @@ Commands</string>
                                             <rect key="frame" x="1" y="0.0" width="700" height="668"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         </customView>
-                                        <customView id="625" customClass="MapView">
+                                        <customView id="625" customClass="MapView" customModule="SwiftNetrek" customModuleProvider="target">
                                             <rect key="frame" x="702" y="0.0" width="316" height="316"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         </customView>
@@ -1642,7 +1642,7 @@ Commands</string>
                             <tabViewItem label="Credits" identifier="Credits" id="1065">
                                 <view key="view" id="1066">
                                     <rect key="frame" x="10" y="7" width="1018" height="770"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <imageView id="1108">
                                             <rect key="frame" x="0.0" y="-195" width="1024" height="1006"/>
