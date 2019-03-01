@@ -7,7 +7,6 @@
 //
 
 #import "GameController.h"
-#import "SwiftNetrek-Swift.h"
 
 
 @implementation GameController

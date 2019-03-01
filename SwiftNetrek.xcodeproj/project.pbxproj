@@ -17,28 +17,13 @@
 		2F79778B2225C9A900AE40CD /* DRBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79778A2225C9A900AE40CD /* DRBaseView.swift */; };
 		2F79778D2225D15000AE40CD /* DRGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79778C2225D15000AE40CD /* DRGameView.swift */; };
 		2F7977CC222752C200AE40CD /* GuiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977CB222752C200AE40CD /* GuiManager.swift */; };
-		2F7977F122288AA700AE40CD /* Phaser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977D022288AA700AE40CD /* Phaser.m */; };
-		2F7977F222288AA700AE40CD /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977D122288AA700AE40CD /* Weapon.m */; };
-		2F7977F322288AA700AE40CD /* Universe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977D322288AA700AE40CD /* Universe.m */; };
-		2F7977F422288AA700AE40CD /* Ranks.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977D422288AA700AE40CD /* Ranks.m */; };
-		2F7977F522288AA700AE40CD /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977D522288AA700AE40CD /* Entity.m */; };
-		2F7977F622288AA700AE40CD /* Torp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977D722288AA700AE40CD /* Torp.m */; };
-		2F7977F722288AA700AE40CD /* FeatureList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977DA22288AA700AE40CD /* FeatureList.m */; };
-		2F7977F822288AA700AE40CD /* Plasma.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977DB22288AA700AE40CD /* Plasma.m */; };
-		2F7977F922288AA700AE40CD /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977DC22288AA700AE40CD /* Team.m */; };
-		2F7977FA22288AA700AE40CD /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977DF22288AA700AE40CD /* Planet.m */; };
-		2F7977FB22288AA700AE40CD /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977E222288AA700AE40CD /* Ship.m */; };
-		2F7977FC22288AA700AE40CD /* Projectile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977E322288AA700AE40CD /* Projectile.m */; };
-		2F7977FD22288AA700AE40CD /* PlayerStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977E522288AA700AE40CD /* PlayerStats.m */; };
-		2F7977FE22288AA700AE40CD /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977E922288AA700AE40CD /* Status.m */; };
-		2F7977FF22288AA700AE40CD /* Feature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977EC22288AA700AE40CD /* Feature.m */; };
-		2F79780022288AA700AE40CD /* Rank.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977EE22288AA700AE40CD /* Rank.m */; };
-		2F79780122288AA700AE40CD /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977F022288AA700AE40CD /* Player.m */; };
 		2FD16AD022234C9100E1ACC8 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */; };
 		2FD16AD222236D0800E1ACC8 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FD16AD122236D0800E1ACC8 /* license.txt */; };
 		2FD16AD4222375D900E1ACC8 /* SoundPlayerForMacTrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */; };
 		2FD16AD622237AA400E1ACC8 /* SoundPlayerForNetrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */; };
 		2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */; };
+		2FEA34DB222893530082D127 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA34DA222893530082D127 /* GameController.swift */; };
+		2FEA34DC2228AFFE0082D127 /* ServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFCD0B08FFB80059A8B1 /* ServerController.m */; };
 		2FECB4912223A41E00AB7ED9 /* MTVoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECB4902223A41E00AB7ED9 /* MTVoiceController.swift */; };
 		5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB70B08FFB80059A8B1 /* BeepLite.m */; };
 		5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFB90B08FFB80059A8B1 /* ClientController.m */; };
@@ -51,7 +36,6 @@
 		5212F0710B08FFB80059A8B1 /* MTKeyMapEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFC70B08FFB80059A8B1 /* MTKeyMapEntry.m */; };
 		5212F0720B08FFB80059A8B1 /* PlayerListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFC90B08FFB80059A8B1 /* PlayerListDataSource.m */; };
 		5212F0730B08FFB80059A8B1 /* RobotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFCB0B08FFB80059A8B1 /* RobotsController.m */; };
-		5212F0740B08FFB80059A8B1 /* ServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFCD0B08FFB80059A8B1 /* ServerController.m */; };
 		5212F0750B08FFB80059A8B1 /* Communication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFD10B08FFB80059A8B1 /* Communication.m */; };
 		5212F0760B08FFB80059A8B1 /* MetaServerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFD40B08FFB80059A8B1 /* MetaServerEntry.m */; };
 		5212F0770B08FFB80059A8B1 /* MetaServerParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212EFD60B08FFB80059A8B1 /* MetaServerParser.m */; };
@@ -85,7 +69,6 @@
 		5212F0930B08FFB80059A8B1 /* BaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F0120B08FFB80059A8B1 /* BaseClass.m */; };
 		5212F0940B08FFB80059A8B1 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F0140B08FFB80059A8B1 /* BaseView.m */; };
 		5212F0950B08FFB80059A8B1 /* DemoClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F0170B08FFB80059A8B1 /* DemoClientController.m */; };
-		5212F0960B08FFB80059A8B1 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F0190B08FFB80059A8B1 /* GameController.m */; };
 		5212F0980B08FFB80059A8B1 /* LocalServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F01E0B08FFB80059A8B1 /* LocalServerController.m */; };
 		5212F0990B08FFB80059A8B1 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F0200B08FFB80059A8B1 /* LoginController.m */; };
 		5212F09A0B08FFB80059A8B1 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212F0220B08FFB80059A8B1 /* MenuController.m */; };
@@ -201,7 +184,7 @@
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/MacTrek/Other/main.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/SwiftNetrek/Other/main.m; sourceTree = "<group>"; };
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -216,48 +199,15 @@
 		2F79778A2225C9A900AE40CD /* DRBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRBaseView.swift; sourceTree = "<group>"; };
 		2F79778C2225D15000AE40CD /* DRGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRGameView.swift; sourceTree = "<group>"; };
 		2F7977CB222752C200AE40CD /* GuiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiManager.swift; sourceTree = "<group>"; };
-		2F7977CE22288AA700AE40CD /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
-		2F7977CF22288AA700AE40CD /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
-		2F7977D022288AA700AE40CD /* Phaser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phaser.m; sourceTree = "<group>"; };
-		2F7977D122288AA700AE40CD /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
-		2F7977D222288AA700AE40CD /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
-		2F7977D322288AA700AE40CD /* Universe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Universe.m; sourceTree = "<group>"; };
-		2F7977D422288AA700AE40CD /* Ranks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ranks.m; sourceTree = "<group>"; };
-		2F7977D522288AA700AE40CD /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
-		2F7977D622288AA700AE40CD /* PlayerStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStats.h; sourceTree = "<group>"; };
-		2F7977D722288AA700AE40CD /* Torp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Torp.m; sourceTree = "<group>"; };
-		2F7977D822288AA700AE40CD /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
-		2F7977D922288AA700AE40CD /* Feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feature.h; sourceTree = "<group>"; };
-		2F7977DA22288AA700AE40CD /* FeatureList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureList.m; sourceTree = "<group>"; };
-		2F7977DB22288AA700AE40CD /* Plasma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plasma.m; sourceTree = "<group>"; };
-		2F7977DC22288AA700AE40CD /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
-		2F7977DD22288AA700AE40CD /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		2F7977DE22288AA700AE40CD /* Rank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rank.h; sourceTree = "<group>"; };
-		2F7977DF22288AA700AE40CD /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
-		2F7977E022288AA700AE40CD /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
-		2F7977E122288AA700AE40CD /* Phaser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phaser.h; sourceTree = "<group>"; };
-		2F7977E222288AA700AE40CD /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
-		2F7977E322288AA700AE40CD /* Projectile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projectile.m; sourceTree = "<group>"; };
-		2F7977E422288AA700AE40CD /* Torp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Torp.h; sourceTree = "<group>"; };
-		2F7977E522288AA700AE40CD /* PlayerStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerStats.m; sourceTree = "<group>"; };
-		2F7977E622288AA700AE40CD /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		2F7977E722288AA700AE40CD /* Ranks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ranks.h; sourceTree = "<group>"; };
-		2F7977E822288AA700AE40CD /* Universe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universe.h; sourceTree = "<group>"; };
-		2F7977E922288AA700AE40CD /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
-		2F7977EA22288AA700AE40CD /* Plasma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plasma.h; sourceTree = "<group>"; };
-		2F7977EB22288AA700AE40CD /* FeatureList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureList.h; sourceTree = "<group>"; };
-		2F7977EC22288AA700AE40CD /* Feature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feature.m; sourceTree = "<group>"; };
-		2F7977ED22288AA700AE40CD /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
-		2F7977EE22288AA700AE40CD /* Rank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rank.m; sourceTree = "<group>"; };
-		2F7977EF22288AA700AE40CD /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
-		2F7977F022288AA700AE40CD /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		2FD16ACF22234C9100E1ACC8 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		2FD16AD122236D0800E1ACC8 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 		2FD16AD3222375D900E1ACC8 /* SoundPlayerForMacTrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForMacTrek.swift; sourceTree = "<group>"; };
 		2FD16AD522237AA400E1ACC8 /* SoundPlayerForNetrek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForNetrek.swift; sourceTree = "<group>"; };
 		2FD16AD722237AC100E1ACC8 /* SoundPlayerForTac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerForTac.swift; sourceTree = "<group>"; };
+		2FEA34DA222893530082D127 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		2FEA34DD2228B0CB0082D127 /* ServerControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerControllerNew.swift; sourceTree = "<group>"; };
 		2FECB4902223A41E00AB7ED9 /* MTVoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTVoiceController.swift; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacTrek_Prefix.pch; path = Classes/MacTrek/Other/MacTrek_Prefix.pch; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MacTrek_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacTrek_Prefix.pch; path = Classes/SwiftNetrek/Other/MacTrek_Prefix.pch; sourceTree = "<group>"; };
 		5212EFB60B08FFB80059A8B1 /* BeepLite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BeepLite.h; sourceTree = "<group>"; };
 		5212EFB70B08FFB80059A8B1 /* BeepLite.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BeepLite.m; sourceTree = "<group>"; };
 		5212EFB80B08FFB80059A8B1 /* ClientController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ClientController.h; sourceTree = "<group>"; };
@@ -678,48 +628,6 @@
 			path = old;
 			sourceTree = "<group>";
 		};
-		2F7977CD22288AA700AE40CD /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				2F7977CE22288AA700AE40CD /* Ship.h */,
-				2F7977CF22288AA700AE40CD /* Projectile.h */,
-				2F7977D022288AA700AE40CD /* Phaser.m */,
-				2F7977D122288AA700AE40CD /* Weapon.m */,
-				2F7977D222288AA700AE40CD /* Status.h */,
-				2F7977D322288AA700AE40CD /* Universe.m */,
-				2F7977D422288AA700AE40CD /* Ranks.m */,
-				2F7977D522288AA700AE40CD /* Entity.m */,
-				2F7977D622288AA700AE40CD /* PlayerStats.h */,
-				2F7977D722288AA700AE40CD /* Torp.m */,
-				2F7977D822288AA700AE40CD /* Data.h */,
-				2F7977D922288AA700AE40CD /* Feature.h */,
-				2F7977DA22288AA700AE40CD /* FeatureList.m */,
-				2F7977DB22288AA700AE40CD /* Plasma.m */,
-				2F7977DC22288AA700AE40CD /* Team.m */,
-				2F7977DD22288AA700AE40CD /* Player.h */,
-				2F7977DE22288AA700AE40CD /* Rank.h */,
-				2F7977DF22288AA700AE40CD /* Planet.m */,
-				2F7977E022288AA700AE40CD /* Weapon.h */,
-				2F7977E122288AA700AE40CD /* Phaser.h */,
-				2F7977E222288AA700AE40CD /* Ship.m */,
-				2F7977E322288AA700AE40CD /* Projectile.m */,
-				2F7977E422288AA700AE40CD /* Torp.h */,
-				2F7977E522288AA700AE40CD /* PlayerStats.m */,
-				2F7977E622288AA700AE40CD /* Entity.h */,
-				2F7977E722288AA700AE40CD /* Ranks.h */,
-				2F7977E822288AA700AE40CD /* Universe.h */,
-				2F7977E922288AA700AE40CD /* Status.m */,
-				2F7977EA22288AA700AE40CD /* Plasma.h */,
-				2F7977EB22288AA700AE40CD /* FeatureList.h */,
-				2F7977EC22288AA700AE40CD /* Feature.m */,
-				2F7977ED22288AA700AE40CD /* Planet.h */,
-				2F7977EE22288AA700AE40CD /* Rank.m */,
-				2F7977EF22288AA700AE40CD /* Team.h */,
-				2F7977F022288AA700AE40CD /* Player.m */,
-			);
-			name = Data;
-			sourceTree = "<group>";
-		};
 		5212EFB40B08FFB80059A8B1 /* SwiftNetrek */ = {
 			isa = PBXGroup;
 			children = (
@@ -772,6 +680,7 @@
 				5212EFCD0B08FFB80059A8B1 /* ServerController.m */,
 				52DC5F0A0B3159DE00C78FD1 /* ServerControllerNew.h */,
 				52DC5F0B0B3159DE00C78FD1 /* ServerControllerNew.m */,
+				2FEA34DD2228B0CB0082D127 /* ServerControllerNew.swift */,
 				52C6548C0C04CECF004330BE /* MTFontInstaller.h */,
 				52C6548D0C04CECF004330BE /* MTFontInstaller.m */,
 			);
@@ -851,7 +760,6 @@
 				5212F00C0B08FFB80059A8B1 /* Universe.h */,
 				5212F00D0B08FFB80059A8B1 /* Universe.m */,
 				5212F00E0B08FFB80059A8B1 /* Weapon.h */,
-				2F7977CD22288AA700AE40CD /* Data */,
 				5212F00F0B08FFB80059A8B1 /* Weapon.m */,
 			);
 			path = Data;
@@ -878,6 +786,7 @@
 				2F7977CB222752C200AE40CD /* GuiManager.swift */,
 				5212F01C0B08FFB80059A8B1 /* GuiManager.m */,
 				5212F0180B08FFB80059A8B1 /* GameController.h */,
+				2FEA34DA222893530082D127 /* GameController.swift */,
 				5212F0190B08FFB80059A8B1 /* GameController.m */,
 				5212F0290B08FFB80059A8B1 /* SettingsController.h */,
 				5212F02A0B08FFB80059A8B1 /* SettingsController.m */,
@@ -1271,34 +1180,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				2F79780022288AA700AE40CD /* Rank.m in Sources */,
 				5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */,
 				2F7977662224E4AD00AE40CD /* DRStringTable.swift in Sources */,
-				2F7977F222288AA700AE40CD /* Weapon.m in Sources */,
 				2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */,
 				5212F06A0B08FFB80059A8B1 /* ClientController.m in Sources */,
 				5212F06B0B08FFB80059A8B1 /* JTrekController.m in Sources */,
-				2F7977F522288AA700AE40CD /* Entity.m in Sources */,
-				2F7977FC22288AA700AE40CD /* Projectile.m in Sources */,
 				2FD16AD622237AA400E1ACC8 /* SoundPlayerForNetrek.swift in Sources */,
 				5212F06C0B08FFB80059A8B1 /* KeyMapTableDataSource.m in Sources */,
 				5212F06D0B08FFB80059A8B1 /* LoginManager.m in Sources */,
-				2F7977F322288AA700AE40CD /* Universe.m in Sources */,
 				5212F06E0B08FFB80059A8B1 /* MessagesDataSource.m in Sources */,
 				5212F06F0B08FFB80059A8B1 /* MetaServerTableDataSource.m in Sources */,
 				5212F0700B08FFB80059A8B1 /* MTKeyMap.m in Sources */,
 				5212F0710B08FFB80059A8B1 /* MTKeyMapEntry.m in Sources */,
 				5212F0720B08FFB80059A8B1 /* PlayerListDataSource.m in Sources */,
 				5212F0730B08FFB80059A8B1 /* RobotsController.m in Sources */,
-				5212F0740B08FFB80059A8B1 /* ServerController.m in Sources */,
 				5212F0750B08FFB80059A8B1 /* Communication.m in Sources */,
 				2F7977892225C4F900AE40CD /* MapView.swift in Sources */,
-				2F7977F822288AA700AE40CD /* Plasma.m in Sources */,
 				5212F0760B08FFB80059A8B1 /* MetaServerEntry.m in Sources */,
 				5212F0770B08FFB80059A8B1 /* MetaServerParser.m in Sources */,
+				2FEA34DB222893530082D127 /* GameController.swift in Sources */,
 				5212F0780B08FFB80059A8B1 /* PacketTypesDebug.m in Sources */,
 				5212F0790B08FFB80059A8B1 /* PingStats.m in Sources */,
-				2F7977FB22288AA700AE40CD /* Ship.m in Sources */,
 				5212F07A0B08FFB80059A8B1 /* ServerReader.m in Sources */,
 				5212F07B0B08FFB80059A8B1 /* ServerReaderTcp.m in Sources */,
 				5212F07C0B08FFB80059A8B1 /* ServerReaderUdp.m in Sources */,
@@ -1308,13 +1210,11 @@
 				5212F07F0B08FFB80059A8B1 /* ServerSenderUdp.m in Sources */,
 				5212F0800B08FFB80059A8B1 /* ShortPacketWarningHandler.m in Sources */,
 				5212F0810B08FFB80059A8B1 /* UdpStats.m in Sources */,
-				2F7977FE22288AA700AE40CD /* Status.m in Sources */,
 				5212F0820B08FFB80059A8B1 /* Entity.m in Sources */,
 				5212F0830B08FFB80059A8B1 /* Feature.m in Sources */,
 				5212F0840B08FFB80059A8B1 /* FeatureList.m in Sources */,
 				2F79775E22249C9C00AE40CD /* PlayerListView.swift in Sources */,
 				2FD16AD822237AC100E1ACC8 /* SoundPlayerForTac.swift in Sources */,
-				2F79780122288AA700AE40CD /* Player.m in Sources */,
 				5212F0850B08FFB80059A8B1 /* Phaser.m in Sources */,
 				5212F0860B08FFB80059A8B1 /* Planet.m in Sources */,
 				2F79778D2225D15000AE40CD /* DRGameView.swift in Sources */,
@@ -1333,8 +1233,6 @@
 				5212F0930B08FFB80059A8B1 /* BaseClass.m in Sources */,
 				5212F0940B08FFB80059A8B1 /* BaseView.m in Sources */,
 				5212F0950B08FFB80059A8B1 /* DemoClientController.m in Sources */,
-				2F7977F922288AA700AE40CD /* Team.m in Sources */,
-				5212F0960B08FFB80059A8B1 /* GameController.m in Sources */,
 				5212F0980B08FFB80059A8B1 /* LocalServerController.m in Sources */,
 				5212F0990B08FFB80059A8B1 /* LoginController.m in Sources */,
 				5212F09A0B08FFB80059A8B1 /* MenuController.m in Sources */,
@@ -1352,7 +1250,6 @@
 				5212F0A50B08FFB80059A8B1 /* SoundPlayer.m in Sources */,
 				5212F0A60B08FFB80059A8B1 /* SoundPlayerForMacTrek.m in Sources */,
 				5212F0A70B08FFB80059A8B1 /* SoundPlayerForNetrek.m in Sources */,
-				2F7977FA22288AA700AE40CD /* Planet.m in Sources */,
 				5212F0A80B08FFB80059A8B1 /* SoundPlayerForTac.m in Sources */,
 				5212F0A90B08FFB80059A8B1 /* GameView.m in Sources */,
 				5212F0AA0B08FFB80059A8B1 /* MapView.m in Sources */,
@@ -1366,18 +1263,16 @@
 				528E7E110B0A649E00B22943 /* LLInterceptAngle.m in Sources */,
 				528E7E120B0A649E00B22943 /* LLTarget.m in Sources */,
 				528E7E130B0A649E00B22943 /* LLTrigonometry.m in Sources */,
-				2F7977F122288AA700AE40CD /* Phaser.m in Sources */,
 				528E7E140B0A649E00B22943 /* LLVector.m in Sources */,
 				528E7E150B0A649E00B22943 /* LLBar.m in Sources */,
 				528E7E160B0A649E00B22943 /* LLCharFormatter.m in Sources */,
 				528E7E170B0A649E00B22943 /* LLColorFilter.m in Sources */,
-				2F7977FD22288AA700AE40CD /* PlayerStats.m in Sources */,
 				528E7E180B0A649E00B22943 /* LLFullScreenBackgroundWindow.m in Sources */,
 				528E7E190B0A649E00B22943 /* LLGradientRect.m in Sources */,
 				528E7E1A0B0A649E00B22943 /* LLRoundedView.m in Sources */,
 				528E7E1B0B0A649E00B22943 /* LLShapes.m in Sources */,
+				2FEA34DC2228AFFE0082D127 /* ServerController.m in Sources */,
 				528E7E1C0B0A649E00B22943 /* LLStringList.m in Sources */,
-				2F7977F422288AA700AE40CD /* Ranks.m in Sources */,
 				528E7E1D0B0A649E00B22943 /* LLStringTable.m in Sources */,
 				528E7E1E0B0A649E00B22943 /* LLTransparentWindow.m in Sources */,
 				528E7E240B0A649E00B22943 /* LLPersistantSettings.m in Sources */,
@@ -1393,7 +1288,6 @@
 				52BA84FB0B10E22500F71673 /* TrackUpdate.m in Sources */,
 				52DC5E3A0B31574200C78FD1 /* LLSystemInformation.m in Sources */,
 				52DC5F0C0B3159DE00C78FD1 /* ServerControllerNew.m in Sources */,
-				2F7977FF22288AA700AE40CD /* Feature.m in Sources */,
 				52D37C9E0B8A5C1800265266 /* MTVoiceController.m in Sources */,
 				2FD16AD022234C9100E1ACC8 /* SoundPlayer.swift in Sources */,
 				52F819800B8EDB73003ED1BE /* MTMouseMap.m in Sources */,
@@ -1408,9 +1302,7 @@
 				52248D1A0BD568A500B80C6B /* LLHost.m in Sources */,
 				52248D1D0BD568B600B80C6B /* LLSocket.m in Sources */,
 				52248D200BD568C400B80C6B /* LLUDPSocket.m in Sources */,
-				2F7977F622288AA700AE40CD /* Torp.m in Sources */,
 				52248D230BD568CD00B80C6B /* LLTCPSocket.m in Sources */,
-				2F7977F722288AA700AE40CD /* FeatureList.m in Sources */,
 				52248D260BD568E000B80C6B /* LLSocketStream.m in Sources */,
 				528FEEC00BD6D0C40092C121 /* LLMutableDataExtension.m in Sources */,
 				52AD186A0BF25FB7007AF259 /* MTUDPWindowController.m in Sources */,

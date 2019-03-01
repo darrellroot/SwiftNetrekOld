@@ -1878,7 +1878,7 @@ Pascal (Defcom), William Balcerski, Robert Temple, Chris Guthrie, Ed James, Scot
                 <outlet property="tabFrameView" destination="496" id="712"/>
             </connections>
         </customObject>
-        <customObject id="815" userLabel="GuiManager" customClass="GuiManager">
+        <customObject id="815" userLabel="GuiManager" customClass="GuiManager" customModule="SwiftNetrek" customModuleProvider="target">
             <connections>
                 <outlet property="gameCntrl" destination="900" id="901"/>
                 <outlet property="keyMapList" destination="1080" id="1082"/>
@@ -1926,7 +1926,7 @@ Pascal (Defcom), William Balcerski, Robert Temple, Chris Guthrie, Ed James, Scot
                 <outlet property="playerPasswordVerify" destination="553" id="849"/>
             </connections>
         </customObject>
-        <customObject id="900" userLabel="GameController" customClass="GameController">
+        <customObject id="900" userLabel="GameController" customClass="GameController" customModule="SwiftNetrek" customModuleProvider="target">
             <connections>
                 <outlet property="armiesBar" destination="955" id="962"/>
                 <outlet property="eTempBar" destination="953" id="961"/>
@@ -1973,7 +1973,7 @@ Pascal (Defcom), William Balcerski, Robert Temple, Chris Guthrie, Ed James, Scot
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" id="dkg-Cj-KiO">
                             <rect key="frame" x="0.0" y="0.0" width="362" height="499"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" usesRuler="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="1080">
                                     <rect key="frame" x="0.0" y="0.0" width="362" height="499"/>

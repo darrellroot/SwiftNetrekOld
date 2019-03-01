@@ -88,6 +88,8 @@ class GuiManager: NSObject, NSApplicationDelegate {
     @IBOutlet weak var localServerCntrl: LocalServerController!
     @IBOutlet weak var keyMapPanel: NSPanel!
     @IBOutlet weak var settingsCntrl: SettingsController!
+    @IBOutlet weak var keyMapList: NSTextView!
+    @IBOutlet weak var mainWindow: NSWindow!
 
 
     override init() {
@@ -151,7 +153,7 @@ class GuiManager: NSObject, NSApplicationDelegate {
         outfitCntrl.setQuickConnect(false)
     }
     @objc func focusToGameView() {
-        gameCntrl.gameView().makeFirstResponder()
+        gameCntrl.gameView?.makeFirstResponder()
     }
     @objc func shutdown() {
         server.stopServer()
@@ -408,8 +410,8 @@ class GuiManager: NSObject, NSApplicationDelegate {
                 menuCntrl.raiseMenu(self)
                 return
             }
-            gameCntrl.gameView().setFeatureList(featureList)
-            gameCntrl.mapView()?.setFeatureList(featureList)
+            gameCntrl.gameView?.setFeatureList(featureList)
+            gameCntrl.mapView?.setFeatureList(featureList)
             // save the keymap if it was changed
             settingsCntrl.actionKeyMap().writeToDefaultFileIfChanged()
            self.fillKeyMapPanel()

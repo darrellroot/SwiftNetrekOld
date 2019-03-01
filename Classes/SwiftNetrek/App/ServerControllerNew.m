@@ -28,7 +28,7 @@
 		pathToResources = [[[NSBundle mainBundle] resourcePath] retain];
 		pathToExe = [[NSString stringWithFormat:@"%@/PRECOMPILED/%@/lib", pathToResources, cpuType] retain];
 		pathToServer = [[NSString stringWithFormat:@"%@/newstartd", pathToExe] retain];
-        pathToPid = [[NSString stringWithFormat:@"%@/PRECOMPILED/%@/var/netrek.pid", pathToResources] retain];
+        //pathToPid = [[NSString stringWithFormat:@"%@/PRECOMPILED/%@/var/netrek.pid", pathToResources] retain];
 	}
 	return self;
 }
@@ -79,7 +79,7 @@
 	[server release];
     
     // remove the pid file BUG 1780013
-    [[NSFileManager defaultManager] removeItemAtPath:pathToPid error:NULL];
+    //[[NSFileManager defaultManager] removeItemAtPath:pathToPid error:NULL];
 
 }
 

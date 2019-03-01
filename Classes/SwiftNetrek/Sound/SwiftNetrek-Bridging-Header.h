@@ -21,12 +21,13 @@
 #import "MTTipOfTheDayController.h"
 #import "OutfitMenuController.h"
 #import "LoginController.h"
-#import "GameController.h"
+//
 #import "ServerControllerNew.h"
 #import "MenuController.h"
 #import "SelectServerController.h"
 #import "LocalServerController.h"
 #import "LLHUDWindowController.h"
+//#import "GameController.h"
 
 //#import "GameView.h"
 #define FRAME_RATE  10
