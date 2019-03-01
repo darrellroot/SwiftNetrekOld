@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F048F2F22230A8700F7044F /* SoundEffect.swift */; };
+		2F0EDA3522298EC00093C4F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F73E83A22298BDC00EEC697 /* Main.storyboard */; };
+		2F73E83D22298D2B00EEC697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73E83C22298D2B00EEC697 /* AppDelegate.swift */; };
 		2F79775E22249C9C00AE40CD /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79775D22249C9C00AE40CD /* PlayerListView.swift */; };
 		2F7977622224AA6500AE40CD /* DRStringList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977612224AA6500AE40CD /* DRStringList.swift */; };
 		2F7977642224CAE700AE40CD /* MessagesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7977632224CAE700AE40CD /* MessagesListView.swift */; };
@@ -174,9 +176,7 @@
 		52DC5EF00B3158EA00C78FD1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DC5E500B3158EA00C78FD1 /* IOKit.framework */; };
 		52DC5F0C0B3159DE00C78FD1 /* ServerControllerNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DC5F0B0B3159DE00C78FD1 /* ServerControllerNew.m */; };
 		52F819800B8EDB73003ED1BE /* MTMouseMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8197F0B8EDB73003ED1BE /* MTMouseMap.m */; };
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -190,6 +190,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F048F2E22230A8600F7044F /* SwiftNetrek-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftNetrek-Bridging-Header.h"; sourceTree = "<group>"; };
 		2F048F2F22230A8700F7044F /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		2F73E83A22298BDC00EEC697 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2F73E83C22298D2B00EEC697 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F79775D22249C9C00AE40CD /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
 		2F7977612224AA6500AE40CD /* DRStringList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRStringList.swift; sourceTree = "<group>"; };
 		2F7977632224CAE700AE40CD /* MessagesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListView.swift; sourceTree = "<group>"; };
@@ -586,6 +588,7 @@
 				529F08550B06934F00255735 /* SoundEffects */,
 				529F086D0B06934F00255735 /* SoundEffects2 */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				2F73E83A22298BDC00EEC697 /* Main.storyboard */,
 				52D16B640A06C64900995816 /* logo.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -782,6 +785,7 @@
 		5212F0150B08FFB80059A8B1 /* Gui */ = {
 			isa = PBXGroup;
 			children = (
+				2F73E83C22298D2B00EEC697 /* AppDelegate.swift */,
 				5212F01B0B08FFB80059A8B1 /* GuiManager.h */,
 				2F7977CB222752C200AE40CD /* GuiManager.swift */,
 				5212F01C0B08FFB80059A8B1 /* GuiManager.m */,
@@ -1119,7 +1123,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				52D16B650A06C64900995816 /* logo.icns in Resources */,
 				529F087E0B06934F00255735 /* Backgrounds in Resources */,
@@ -1143,6 +1146,7 @@
 				528E7EBB0B0A67E800B22943 /* horsehead_region-1k.jpg in Resources */,
 				528E7EBF0B0A67F200B22943 /* stklingon_attack02.jpg in Resources */,
 				528E7EC10B0A67FB00B22943 /* federation.png in Resources */,
+				2F0EDA3522298EC00093C4F4 /* Main.storyboard in Resources */,
 				528E7EC30B0A680000B22943 /* klingon.png in Resources */,
 				528E7EC70B0A680700B22943 /* orion.png in Resources */,
 				528E7EC90B0A680A00B22943 /* romulan.png in Resources */,
@@ -1179,7 +1183,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				5212F0690B08FFB80059A8B1 /* BeepLite.m in Sources */,
 				2F7977662224E4AD00AE40CD /* DRStringTable.swift in Sources */,
 				2F048F3022230A8700F7044F /* SoundEffect.swift in Sources */,
@@ -1295,6 +1298,7 @@
 				5256E0B20B9320D80078C491 /* MTMacro.m in Sources */,
 				522F9F4C0B96C842001C4896 /* MTDistress.m in Sources */,
 				52604A9B0B97016B0097D103 /* LLNetServiceDelegate.m in Sources */,
+				2F73E83D22298D2B00EEC697 /* AppDelegate.swift in Sources */,
 				528CF1A90BA07FF30001B4D0 /* MTDistressKeyMap.m in Sources */,
 				521B0B3F0BA4166700CCE3EB /* LLScreenResolution.m in Sources */,
 				521F4D960BA5E8CB00EC77AF /* LLRendezvousController.m in Sources */,
@@ -1339,40 +1343,46 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEFINES_MODULE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 8DU2Q8ABKY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(FRAMEWORK_SEARCH_PATHS)",
-					"$(SRCROOT)/FrameWorks",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
-					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = G4;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PROFILING_CODE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/FrameWorks\"";
 				PRODUCT_BUNDLE_IDENTIFIER = net.networkmom.SwiftNetrek;
 				PRODUCT_NAME = SwiftNetrek;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/SwiftNetrek/Sound/SwiftNetrek-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -1381,30 +1391,34 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 8DU2Q8ABKY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(FRAMEWORK_SEARCH_PATHS)",
-					"$(SRCROOT)/FrameWorks",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
-					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A/Frameworks\"",
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = G4;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PROFILING_CODE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/FrameWorks\"";
 				PRODUCT_BUNDLE_IDENTIFIER = net.networkmom.SwiftNetrek;
@@ -1412,6 +1426,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/SwiftNetrek/Sound/SwiftNetrek-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

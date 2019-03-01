@@ -24,8 +24,8 @@
 	<string>public.app-category.strategy-games</string>
 	<key>MacTrekVersion</key>
 	<string>1.6.0</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
+	<key>NSMainStoryboardFile</key>
+	<string>Main</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
