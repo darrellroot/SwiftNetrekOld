@@ -1,4 +1,7 @@
-# SwiftNetrek
+# SwiftNetrekOld
+
+INACTIVE PROJECT: This conversion failed.  Check out the "SwiftNetrek" repository for a successful project from scratch.
+
 This is an attempt by Darrell Root to rewrite the MacTrek Netrek client (by Chris Lukassen) from Objective-C to Swift
 
 As of 24Feb2019 there are 25,535 lines of Objective-C in 120 *.m files in the distribution.
